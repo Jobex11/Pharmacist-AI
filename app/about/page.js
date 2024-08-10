@@ -1,7 +1,10 @@
 import React from "react";
 
 const page = () => {
-  return <div>About Us page loading ...</div>;
+  return;
+  <div className="flex justify-center items-center text-lg">
+    <h1>about page loading ...</h1>
+  </div>;
 };
 
 export default page;

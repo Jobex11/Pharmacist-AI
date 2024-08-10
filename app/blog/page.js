@@ -2,9 +2,8 @@ import React from "react";
 
 const page = () => {
   return (
-    <div>
-      Blog page
-      <h1>Loading ....</h1>
+    <div className="flex justify-center items-center text-lg">
+      <h1>blog page loading ...</h1>
     </div>
   );
 };
