@@ -48,9 +48,9 @@ Visit the site here ==> [www.flaglog.ng](http://www.mypharmstore.vercel.app).
 
 ## Media
 
-![Screenshot 1](/images/floglogPics3.png)
-![Screenshot 2](/images/floglogPics2.png)
-![Screenshot 3](/images/floglogPics1.png)
+![Screenshot 1](./images/floglogPics3.png)
+![Screenshot 2](./images/floglogPics2.png)
+![Screenshot 3](./images/floglogPics1.png)
 
 ## Contact Us
 
