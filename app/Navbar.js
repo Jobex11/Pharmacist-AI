@@ -7,7 +7,12 @@ const Navbar = () => {
       <div className="flex space-x-4">
         <Link href="/">
           <div className="mr-6">
-            <Image width={100} height={100} src="/images/Logo.svg" />
+            <Image
+              width={100}
+              height={100}
+              unoptimized={true}
+              src="/Logo.png"
+            />
           </div>
         </Link>
 

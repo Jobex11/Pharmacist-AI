@@ -1,9 +1,13 @@
 import React from "react";
 
+const blogs = [{}, {}];
+
 const page = () => {
   return (
-    <div className="flex justify-center items-center text-lg">
-      <h1>blog page loading ...</h1>
+    <div>
+      {/*  first section*/}
+      <div>Blog</div>
+      {/* second section  */}
     </div>
   );
 };

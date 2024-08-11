@@ -6,8 +6,12 @@ export default function Home() {
   return (
     <div className="w-screen">
       {/* nav content */}
-      {/* first content */}
-      <div className="bg-[url('/Rectangle37.png')] bg-cover bg-center h-screen w-full py-10 flex flex-col items-center">
+      {/* first content 
+      /Group6321.png 
+      /images/side-view-smiley-doctor-talking-patient-01.png
+      /images/african-american-woman-pharmacist-standing-with-serious-expression-pharmacy.png
+      */}
+      <div className="bg-custom-bg-1  py-10 flex flex-col items-center">
         <h1 className="text-4xl w-[600px] text-gray-200 mt-12 text-center">
           Connect with Expert Pharmacists Anytime, Anywhere with Flolog
         </h1>
@@ -15,27 +19,29 @@ export default function Home() {
           Experience Premium Pharmaceutical Care on your mobile. Refill
           medications easily, and lots more.
         </h4>
-        <div className="  w-[700px] flex justify-center items-center flex-row m-4 h-[600px]">
+        <div className="  w-[40%] flex justify-center items-center flex-row m-4 h-[400px]">
           <div className="h-full w-[50%] mr-[-60px] z-0">
             <Image
-              width={600}
-              height={600}
+              width={100}
+              height={100}
+              unoptimized={true}
               src="/Group6321.png"
-              className="h-full object-cover"
+              className="h-full w-full"
             />
           </div>
-
-          <div className="flex flex-col justify-center h-full">
+          <div className="flex flex-col justify-center w-[50%] h-full">
             <Image
               width={100}
               height={100}
-              src="/images/side-view-smiley-doctor-talking-patient-01.png"
-              className="h-[50%] object-cover w-full"
+              unoptimized={true}
+              src="/Maskgroup.png"
+              className="h-[50%] object-cover w-full rounded-lg"
             />
             <Image
               width={100}
               height={100}
-              src="/images/african-american-woman-pharmacist-standing-with-serious-expression-pharmacy.png"
+              unoptimized={true}
+              src="/Group6322.png"
               className="h-[50%] object-cover w-full"
             />
           </div>
@@ -115,6 +121,8 @@ export default function Home() {
               src="/images/Image[img-feature-lg].png"
               height={100}
               width={100}
+              quality={100}
+              unoptimized={true}
               className="relative z-10 h-[80%] w-[80%]"
             />
           </div>
@@ -142,6 +150,8 @@ export default function Home() {
               src="/Layer_1.png"
               height={100}
               width={100}
+              quality={100}
+              unoptimized={true}
               className="relative z-10 h-[80%] w-[80%]"
             />
           </div>
@@ -152,6 +162,8 @@ export default function Home() {
               src="/Layer_2.png"
               height={100}
               width={100}
+              quality={100}
+              unoptimized={true}
               className="relative z-10 h-[80%] w-[80%]"
             />
           </div>
@@ -198,6 +210,8 @@ export default function Home() {
             src="/Rectangle87.png"
             height={100}
             width={100}
+            quality={100}
+            unoptimized={true}
             className="h-full w-full"
           />
         </div>
@@ -207,6 +221,8 @@ export default function Home() {
               src="/Rectangle89.png"
               height={100}
               width={100}
+              quality={100}
+              unoptimized={true}
               className="w-full h-full"
             />
           </div>
@@ -215,6 +231,8 @@ export default function Home() {
               src="/Rectangle90.png"
               height={100}
               width={100}
+              quality={100}
+              unoptimized={true}
               className="w-full h-full"
             />
           </div>
@@ -223,6 +241,8 @@ export default function Home() {
               src="/Rectangle91.png"
               height={100}
               width={100}
+              quality={100}
+              unoptimized={true}
               className="w-full h-full"
             />
           </div>
