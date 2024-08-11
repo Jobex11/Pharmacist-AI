@@ -1,4 +1,4 @@
-# FLOLOG
+# FLOLOG (/images/Logo.png)
 
 FLOLOG provides you with viable, efficient, and cost-effective healthcare solutions. Our platform offers a range of services designed to make accessing medications and pharmacy services more convenient and efficient.
 
@@ -48,9 +48,9 @@ Visit the site here ==> [www.flaglog.ng](http://www.mypharmstore.vercel.app).
 
 ## Media
 
-![Screenshot 1](/floglogPics3.png)
-![Screenshot 2](/floglogPics2.png)
-![Screenshot 3](/floglogPics1.png)
+![Screenshot 1](/images/floglogPics3.png)
+![Screenshot 2](/images/floglogPics2.png)
+![Screenshot 3](/images/floglogPics1.png)
 
 ## Contact Us
 
