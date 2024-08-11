@@ -6,36 +6,6 @@ export default function Home() {
   return (
     <div className="w-screen">
       {/* nav content */}
-      <nav className="flex fixed top-0 left-0  justify-between items-center py-6 px-14 w-full z-100">
-        <div className="flex space-x-4">
-          <Link href="/">
-            <div className="mr-6">
-              <Image width={100} height={100} src="/logo.png" />
-            </div>
-          </Link>
-
-          <ul className="flex space-x-6 text-gray-300 text-basic">
-            <Link href="/">
-              <li>Home</li>
-            </Link>
-            <Link href="/about">
-              <li>About Us</li>
-            </Link>
-
-            <Link href="/blog">
-              <li>Blog</li>
-            </Link>
-            <Link href="/contact">
-              <li>Contact Us</li>
-            </Link>
-          </ul>
-        </div>
-
-        <div className="bg-gray-300 p-1 text-sm cursor-pointer">
-          Download App
-        </div>
-      </nav>
-
       {/* first content */}
       <div className="bg-[url('/Rectangle37.png')] bg-cover bg-center h-screen w-full py-10 flex flex-col items-center">
         <h1 className="text-4xl w-[600px] text-gray-200 mt-12 text-center">
@@ -59,13 +29,13 @@ export default function Home() {
             <Image
               width={100}
               height={100}
-              src="/Maskgroup.png"
+              src="/images/side-view-smiley-doctor-talking-patient-01.png"
               className="h-[50%] object-cover w-full"
             />
             <Image
               width={100}
               height={100}
-              src="/Group6322.png"
+              src="/images/african-american-woman-pharmacist-standing-with-serious-expression-pharmacy.png"
               className="h-[50%] object-cover w-full"
             />
           </div>
@@ -142,7 +112,7 @@ export default function Home() {
         <div className="flex w-[50%] justify-center items-center space-x-5 h-[400px] my-6">
           <div className="bg-custom-bg-2 w-[60%] h-full flex justify-center items-end rounded-xl">
             <Image
-              src="/Image[img-feature-lg].png"
+              src="/images/Image[img-feature-lg].png"
               height={100}
               width={100}
               className="relative z-10 h-[80%] w-[80%]"
@@ -196,7 +166,7 @@ export default function Home() {
         </div>
       </div>
       {/* fourth content */}
-      <div className="text-primary py-7 h-screen flex  flex-col justify-center items-center border">
+      <div className="bg-[#F0F7FF] text-primary py-7 h-auto flex  flex-col justify-center items-center border">
         <h2 className="font-bold text-2xl w-[40%] text-center">
           Take an advantage of the Senior Citizens Care Program (SECCAP)
         </h2>
@@ -204,175 +174,195 @@ export default function Home() {
           SECCAP is a comprehensive healthcare solution designed to support the
           well-being of the elderly in our communities.
         </h4>
-        <button></button>
+        <button className="bg-gray-300 p-1 text-sm cursor-pointer my-4">
+          Register Now
+        </button>
 
-        <div>big image</div>
-        <div>
-          <div>
-            <Image src="/Rectangle87.png" height={100} width={100} />
+        <div className="w-[70%] h-[60%]">
+          {/*text drop sided big image*/}
+          {/*
+          
+          
+          <div className="text-xs bg-gray-200 p-2 w-[30%] rounded-md relative top-0">
+            Convenient home delivery of medications, saving you time and effort
           </div>
-          <div>
-            <Image src="/Rectangle89.png" height={100} width={100} />
+          <div className="text-xs bg-gray-200 p-2 w-[30%] rounded-md">
+            Get uninterrupted monthly medication refills for your elderly
           </div>
-          <div>
-            <Image src="/Rectangle90.png" height={100} width={100} />
+          <div className="text-xs bg-gray-200 p-2 w-[30%] rounded-md">
+            Access to qualified Clinical Pharmacists for expert guidance and
+            support, whenever and wherever needed
           </div>
-          <div>
-            <Image src="/Rectangle87.png" height={100} width={100} />
+          */}
+          <Image
+            src="/Rectangle87.png"
+            height={100}
+            width={100}
+            className="h-full w-full"
+          />
+        </div>
+        <div className="flex space-x-4 my-4 w-[70%] h-[200px]">
+          <div className="flex-1">
+            <Image
+              src="/Rectangle89.png"
+              height={100}
+              width={100}
+              className="w-full h-full"
+            />
+          </div>
+          <div className="flex-1">
+            <Image
+              src="/Rectangle90.png"
+              height={100}
+              width={100}
+              className="w-full h-full"
+            />
+          </div>
+          <div className="flex-1">
+            <Image
+              src="/Rectangle91.png"
+              height={100}
+              width={100}
+              className="w-full h-full"
+            />
           </div>
         </div>
-        {/*text drop sided big image*/}
-        <span>
-          Convenient home delivery of medications, saving you time and effort
-        </span>
-        <span>
-          Get uninterrupted monthly medication refills for your elderly
-        </span>
-        <span>
-          Access to qualified Clinical Pharmacists for expert guidance and
-          support, whenever and wherever needed
-        </span>
       </div>
       {/* fifth content  healthcare tips*/}
-      <div>
-        <div>
-          <h3>Healthcare at Your fingertip</h3>
-          <h6>
-            In 15 months, we've made significant strides in becoming a trusted
-            healthcare partner to
-          </h6>
-        </div>
-        <div>
-          <div>
-            <h3>Over 100</h3>
-            <h6>Pharmacies across Nigeria</h6>
+      <div className="h-screen flex items-center">
+        <div className="bg-gradient-to-b from-[#0C4E86] to-[#031320] my-16 flex flex-col text-white justify-center items-center w-full">
+          <div className="my-6 text-center flex flex-col justify-center items-center">
+            <h3 className="font-bold text-2xl my-4">
+              Healthcare at Your fingertip
+            </h3>
+            <h6 className="text-base w-[50%]">
+              In 15 months, we've made significant strides in becoming a trusted
+              healthcare partner to
+            </h6>
           </div>
-          <div>
-            <h3>Over 50</h3>
-            <h6>Hospitals across Nigeria</h6>
-          </div>
-          <div>
-            <h3>Over 5,000</h3>
-            <h6>Patients across Nigeria</h6>
-          </div>
-          <div>
-            <h3>Over 10,000</h3>
-            <h6>Healthcare providers across Nigeria</h6>
+          <div className="my-6 flex justify-center items-center gap-6">
+            <div className="rounded-full border border-gray-200 flex-1 py-5 px-8">
+              <h3 className="text-2xl">Over 100</h3>
+              <h6 className="text-xs">Pharmacies across Nigeria</h6>
+            </div>
+            <div className="rounded-full border border-gray-200 flex-1 py-5 px-8">
+              <h3 className="text-2xl">Over 50</h3>
+              <h6 className="text-xs">Hospitals across Nigeria</h6>
+            </div>
+            <div className="rounded-full border border-gray-200 flex-1 py-5 px-8">
+              <h3 className="text-2xl">Over 5,000</h3>
+              <h6 className="text-xs">Patients across Nigeria</h6>
+            </div>
+            <div className="rounded-full border border-gray-200 flex-1 py-5 px-8">
+              <h3 className="text-2xl">Over 10,000</h3>
+              <h6 className="text-xs">Healthcare providers across Nigeria</h6>
+            </div>
           </div>
         </div>
       </div>
-      {/* sixth content  faq*/}
-      <div>
-        <div>
-          <h6>Frequently asked questions</h6>
-          <h3>Everything you need to know</h3>
-          <h6>
-            Discover helpful information about our services and patient care in
-            our FAQ library
-          </h6>
+      {/* sixth content faq */}
+      <div className="bg-gradient-to-tr from-[#FEFFFF] to-[#A9DBFF] my-14 p-12 text-primary">
+        <h6 className="font-bold text-lg py-4">Frequently asked questions</h6>
+        <h3 className="font-bold text-2xl py-4">Everything you need to know</h3>
+        <h6 className="text-lg py-4">
+          Discover helpful information about our services and patient care in
+          our FAQ library
+        </h6>
+        <div className="text-sm">
+          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          {/* accordion groups*/}
+          <div>What are your services?</div>
+
+          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <div>How can I make an appointment?</div>
+
+          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
           <div>
-            {/* accordion groups*/}
-            <div>What are your services?</div>
-            <div>How can I make an appointment?</div>
-            <div>
-              Can I receive a prescription through an online consultation?
-            </div>
-            <div>How much does an online consultation cost?</div>
-            <div>Is my personal and medical information secure?</div>
-            <div>Are your online consultations HIPAA compliant?</div>
-            <div>How much does an online consultation cost?</div>
-            <div>
-              Can I follow up with my consultant after the consultation?
-            </div>
+            Can I receive a prescription through an online consultation?
           </div>
-          <h5>If you have anything else you want to ask, reach out to us.</h5>
+
+          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <div>How much does an online consultation cost?</div>
+
+          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <div>Is my personal and medical information secure?</div>
+
+          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <div>Are your online consultations HIPAA compliant?</div>
+
+          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <div>How much does an online consultation cost?</div>
+
+          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <div>Can I follow up with my consultant after the consultation?</div>
+
+          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
         </div>
+        <h5 className="text-xs py-6">
+          If you have anything else you want to ask,
+          <Link href="/" className="font-bold">
+            reach out to us.
+          </Link>
+        </h5>
+      </div>
+      <div>
         {/* faq footer*/}
-        <div>
-          <div>
-            <div>
+        <div className="w-full flex flex-col justify-center items-center">
+          <div className="text-sm  flex justify-center items-stretch w-[70%] gap-5">
+            <div className="flex-1 bg-custom-bg-4 p-7 rounded-xl">
               <logo>whatsapp logo</logo>
-              <h5>Stay up to date</h5>
-              <h6>
+              <h5 className=" text-gray-200 font-bold py-2">Stay up to date</h5>
+              <h6 className="text-gray-300">
                 Stay informed and engaged with our latest news, updates, and
-                insights by joining our WhatsApp community. We value your
-                connection and look forward to continuing the conversation.
+                insights {/**/}s
+                <Link href="/" className="underline text-gray-100">
+                  by joining our WhatsApp community
+                </Link>
+                . We value your connection and look forward to continuing the
+                conversation.
               </h6>
             </div>
-            <div>
-              <log0>twitter logo</log0>
-              <h5>Stay up to date</h5>
-              <h6>
+            <div className="flex-1 bg-custom-bg-5 p-7 rounded-xl ">
+              <logo>twitter logo</logo>
+              <h5 className=" text-gray-200 font-bold py-2">Stay up to date</h5>
+              <h6 className="text-gray-300">
                 We’d love to stay connected with you. If the feeling’s mutual,
-                follow @flolog.co on Twitter for the latest news and updates.
+                follow{" "}
+                <Link href="/" className=" text-gray-100 underline">
+                  @flolog.co
+                </Link>{" "}
+                on Twitter for the latest news and updates.
               </h6>
             </div>
           </div>
-          <div>
-            <div>
-              <h5>Subscribe to our newsletter</h5>
+          <div className="flex justify-center items-center w-[70%] gap-5 my-12 text-gray-300 text-sm">
+            <div className="flex-1">
+              <div className="text-gray-500 text-sm">
+                Subscribe to our newsletter
+              </div>
               <h6>
                 Receive exclusive updates on new products and services before
                 anyone else
               </h6>
             </div>
-            <div>
-              <div>
-                <input></input> <button>Subscribe</button>
+            <div className="flex-1">
+              <div className="w-full space-x-2 mb-2">
+                <input
+                  type="text"
+                  placeholder="youremail.com"
+                  className="w-[60%] p-2 bg-gray-300 rounded-lg"
+                ></input>{" "}
+                <button className="p-2 text-sm bg-gray-800 text-gray-200 rounded-lg w-inherit">
+                  Subscribe
+                </button>
               </div>
-              <h6>
+              <h6 className="text-xs">
                 By providing your email address, you consent to receive Flolog's
                 monthly newsletter, which includes updates, insights, and
                 industry news. Please review our Privacy Policy for details on
                 how we protect and manage your data. You may revoke your consent
                 and unsubscribe at any time.
               </h6>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div>
-                <logo>app stor</logo>
-                <logo>google play</logo>
-              </div>
-              <div>
-                <div>
-                  <h5>QUICK LINKS</h5>
-                  <ul>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Blog</li>
-                  </ul>
-                </div>
-                <div>
-                  <h5>SOLUTIONS</h5>
-                  <ul>
-                    <li>Consult Pharmacist</li>
-                    <li>Request Medication</li>
-                    <li>SECCAP Program</li>
-                    <li>Emergency Medicine</li>
-                  </ul>
-                </div>
-                <div>
-                  <h5>LEGAL</h5>
-                  <ul>
-                    <li>Privacy Policy</li>
-                    <li>Terms & Conditions</li>
-                    <li>Acceptable Use</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            {/* this is for footer*/}
-            <div>
-              Copyright © 2024 Florix Healthcare Ltd. All rights reserved.
-            </div>
-            <div>
-              <logo>Whatsap</logo>
-              <logo>Instagram</logo>
-              <logo>LinkedIn</logo>
             </div>
           </div>
         </div>
