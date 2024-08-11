@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FLOLOG
+
+FLOLOG provides you with viable, efficient, and cost-effective healthcare solutions. Our platform offers a range of services designed to make accessing medications and pharmacy services more convenient and efficient.
+
+## Development
+
+Visit the site here ==> [www.flaglog.ng](http://www.mypharmstore.vercel.app).
+
+## Features
+
+- **Prompt and Convenient Access to Quality Medications**  
+  Access high-quality medications both online and offline, ensuring you get what you need when you need it.
+
+- **Online Medication Order and Delivery**  
+  Order your medications online and have them delivered directly to your doorstep with ease.
+
+- **Walk-in Integrative Pharmacy Chain**  
+  Visit our walk-in pharmacy chain for an integrated approach to your healthcare needs.
+
+- **In-App Online Access to Qualified Pharmacists**  
+  Get expert advice and support from qualified pharmacists directly through our app.
+
+- **Pharmacists’ Finder in 60 Seconds**  
+  Find available pharmacists quickly and efficiently within 60 seconds using our advanced search feature.
+
+- **Pharmacists’ Aggregator**  
+  Access a comprehensive aggregator of pharmacists to find the best options for your needs.
+
+- **AI-Powered Web App and Website**  
+  Our web app and website utilize AI technology to help users navigate the site more effectively, offering a seamless and intuitive user experience.
+
+- **AI Pharm Test**  
+  Describe your symptoms or health conditions, and our AI-powered system will prescribe the exact drugs and dosage you need. The AI Dr job feature ensures you receive accurate recommendations tailored to your health.
 
 ## Getting Started
 
-First, run the development server:
+1. **Visit Our Website or Download the App**  
+   Start by visiting our website or downloading our mobile app from your app store.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Create an Account**  
+   Sign up for an account to begin using FLOLOG's services.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Explore Our Features**  
+   Browse through our various features including medication ordering, pharmacist finder, and more.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+4. **Place Orders and Get Support**  
+   Use our platform to place medication orders, find pharmacists, and access healthcare support.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Media
 
-## Learn More
+![Screenshot 1](/floglogPics3.png)
+![Screenshot 2](/floglogPics2.png)
+![Screenshot 3](/floglogPics1.png)
 
-To learn more about Next.js, take a look at the following resources:
+## Contact Us
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For more information or assistance, please contact us at [support@frolog.com](mailto:support@frolog.com) or visit our website [www.frolog.com](http://www.frolog.com).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+FLOLOG is dedicated to improving your healthcare experience with cutting-edge solutions and exceptional service. Thank you for choosing FLOLOG!

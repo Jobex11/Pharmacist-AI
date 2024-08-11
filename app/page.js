@@ -1,10 +1,9 @@
-"use client";
 import Link from "next/link";
 import Image from "next/image";
-
+import { FaArrowRight } from "react-icons/fa";
 export default function Home() {
   return (
-    <div className="w-screen">
+    <div className="w-full overflow-hidden">
       {/* nav content */}
       {/* first content 
       /Group6321.png 
@@ -106,8 +105,9 @@ export default function Home() {
             with Flolog's innovative solutions
           </h3>
           <div className="text-center">
-            <button className=" bg-gray-100 p-1 text-sm cursor-pointer">
+            <button className="bg-gray-200 rounded-lg text-sm cursor-pointer flex justify-center items-center gap-1 p-2 text-primary hover:bg-gray-100 hover:transition-all my-4">
               Get started
+              <FaArrowRight className="text-primary" />
             </button>
           </div>
         </div>
@@ -186,8 +186,9 @@ export default function Home() {
           SECCAP is a comprehensive healthcare solution designed to support the
           well-being of the elderly in our communities.
         </h4>
-        <button className="bg-gray-300 p-1 text-sm cursor-pointer my-4">
-          Register Now
+        <button className="bg-gray-200 rounded-lg text-sm cursor-pointer flex justify-center items-center gap-1 p-2 text-primary hover:bg-gray-100 hover:transition-all my-4">
+          Get started
+          <FaArrowRight className="text-primary" />
         </button>
 
         <div className="w-[70%] h-[60%]">
@@ -330,7 +331,9 @@ export default function Home() {
         <div className="w-full flex flex-col justify-center items-center">
           <div className="text-sm  flex justify-center items-stretch w-[70%] gap-5">
             <div className="flex-1 bg-custom-bg-4 p-7 rounded-xl">
-              <logo>whatsapp logo</logo>
+              <div className="w-[40px] h-[40px]">
+                <Image src="/SocialIcons.svg" height={100} width={100} />
+              </div>
               <h5 className=" text-gray-200 font-bold py-2">Stay up to date</h5>
               <h6 className="text-gray-300">
                 Stay informed and engaged with our latest news, updates, and
@@ -343,7 +346,9 @@ export default function Home() {
               </h6>
             </div>
             <div className="flex-1 bg-custom-bg-5 p-7 rounded-xl ">
-              <logo>twitter logo</logo>
+              <div className="w-[40px]  h-[40px]">
+                <Image src="/SocialIcons.svg" height={100} width={100} />
+              </div>
               <h5 className=" text-gray-200 font-bold py-2">Stay up to date</h5>
               <h6 className="text-gray-300">
                 We’d love to stay connected with you. If the feeling’s mutual,
