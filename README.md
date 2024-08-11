@@ -1,4 +1,4 @@
-# FLOLOG (/assets/Logo.png)
+# FLOLOG ![logo](/assets/Logo.png)
 
 FLOLOG provides you with viable, efficient, and cost-effective healthcare solutions. Our platform offers a range of services designed to make accessing medications and pharmacy services more convenient and efficient.
 
