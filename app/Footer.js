@@ -69,11 +69,11 @@ const Footer = () => {
           <Link href="/">
             <FaWhatsapp />
           </Link>
-          <div>/</div>
+          <div className="font-normal">/</div>
           <Link href="/">
             <FaFacebook />
           </Link>
-          <div>/</div>
+          <div className="font-normal">/</div>
           <Link href="/">
             <FaTwitter />
           </Link>

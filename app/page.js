@@ -335,8 +335,8 @@ export default function Home() {
       <div>
         {/* faq footer*/}
         <div className="w-full md:flex flex-col justify-center items-center">
-          <div className="text-sm  md:flex justify-center items-stretch md:w-[70%] gap-5">
-            <div className="flex-1 bg-custom-bg-4 p-3 md:p-7 rounded-xl">
+          <div className="p-3 md:p-0 text-sm  md:flex justify-center items-stretch md:w-[70%] gap-5">
+            <div className="my-2 md:my-0 flex-1 bg-custom-bg-4 p-3 md:p-7 rounded-xl">
               <div className="w-[25px] h-[25px]">
                 <Image
                   src="/whatsap.svg"
@@ -356,7 +356,7 @@ export default function Home() {
                 conversation.
               </h6>
             </div>
-            <div className="flex-1 bg-custom-bg-5 p-3 md:p-7 rounded-xl ">
+            <div className="my-2 md:my-0 flex-1 bg-custom-bg-5 p-3 md:p-7 rounded-xl ">
               <div className="w-[25px]  h-[25px]">
                 <Image
                   src="/twitter.svg"
@@ -383,7 +383,7 @@ export default function Home() {
               </div>
               <h6>
                 Receive exclusive updates on new products and services before
-                anyone elsesdd
+                anyone else does
               </h6>
             </div>
             <div className="flex-1">
