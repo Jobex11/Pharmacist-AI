@@ -81,12 +81,12 @@ const Navbar = () => {
           </button>
         </div>
 
-        <ul className="flex flex-col justify-center items-start space-y-6 text-gray-300 text-3xl">
+        <ul className="flex flex-col absolute top-[20%]  items-start space-y-6 text-gray-300 text-3xl">
           <Link href="/" className="">
-            <div>
+            <div className="relative bottom-6">
               <Image
-                width={100}
-                height={100}
+                width={120}
+                height={120}
                 unoptimized={true}
                 src="/Logo.png"
                 alt="Logo"
