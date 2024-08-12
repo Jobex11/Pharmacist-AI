@@ -5,20 +5,16 @@ export default function Home() {
   return (
     <div className="w-full overflow-hidden">
       {/* nav content */}
-      {/* first content 
-      /Group6321.png 
-      /images/side-view-smiley-doctor-talking-patient-01.png
-      /images/african-american-woman-pharmacist-standing-with-serious-expression-pharmacy.png
-      */}
+      {/* first content */}
       <div className="bg-custom-bg-1  py-10 flex flex-col items-center">
-        <h1 className="text-4xl w-[600px] text-gray-200 mt-12 text-center">
+        <h1 className="px-2 md:px-0 text-xl md:text-4xl md:w-[600px] text-gray-200 mt-12 text-center">
           Connect with Expert Pharmacists Anytime, Anywhere with Flolog
         </h1>
-        <h4 className="m-4 text-base w-[600px] text-gray-400  text-center">
+        <h4 className="px-2 m-2 md:m-4 text-sm md:text-base md:w-[600px] text-gray-400  text-center">
           Experience Premium Pharmaceutical Care on your mobile. Refill
           medications easily, and lots more.
         </h4>
-        <div className="  w-[40%] flex justify-center items-center flex-row m-4 h-[400px]">
+        <div className=" w-[95%]  md:w-[40%] flex justify-center items-center flex-row m-4 h-[300px] md:h-[400px]">
           <div className="h-full w-[50%] mr-[-60px] z-0">
             <Image
               width={100}
@@ -48,11 +44,11 @@ export default function Home() {
       </div>
 
       {/* second content */}
-      <div className="bg-custom-bg-cyan text-[#0C4E86]  h-screen w-full py-10 flex flex-col items-center">
-        <h1 className="w-[600px]  text-3xl font-bold text-center my-2">
+      <div className="bg-custom-bg-cyan text-[#0C4E86]  md:h-screen w-full py-10 flex flex-col items-center">
+        <h1 className=" w-[300px] md:w-[600px]  text-xl md:text-3xl font-bold text-center my-0 md:my-2">
           We guarantee you the CAPS of healthcare
         </h1>
-        <div className="flex mt-6 mx-14 space-x-8">
+        <div className="md:flex mt-3 md:mt-6  mx-7 md:mx-14 md:space-x-8">
           <div className=" flex-1">
             <div className="rounded-xl bg-white text-2xl  shadow-combined-custom inline-block p-3 my-2">
               C
@@ -95,16 +91,16 @@ export default function Home() {
             </h4>
           </div>
         </div>
-        <hr className="border-[#0B3D7929] my-10 h-1 w-full"></hr>
-        <div>
-          <h1 className="w-[600px]  text-3xl font-bold text-center">
+        <hr className="border-[#0B3D7929] my-5 md:my-10 h-1 w-full"></hr>
+        <div className="px-2 md:px-0">
+          <h1 className="mx-2 overflow-hi md:w-[600px]  text-xl md:text-3xl font-bold md:text-center">
             Maximize Your Medication Safety and Convenience with Floglog.
           </h1>
-          <h3 className="w-[600px]  text-base text-center my-3">
+          <h3 className="md:w-[600px]  text-base md:text-center my-3">
             Safely manage your medications and simplify your healthcare routine
             with Flolog's innovative solutions
           </h3>
-          <div className="text-center">
+          <div className="md:text-center">
             <button className="bg-gray-200 rounded-lg text-sm cursor-pointer flex justify-center items-center gap-1 p-2 text-primary hover:bg-gray-100 hover:transition-all my-4">
               Get started
               <FaArrowRight className="text-primary" />
@@ -114,9 +110,9 @@ export default function Home() {
       </div>
       {/* third content -> solutions */}
       <div className="w-full h-auto p-10 flex flex-col items-center justify-center text-primary">
-        <h5 className="font-bold text-base my-6">OUR SOLUTION</h5>
-        <div className="flex w-[50%] justify-center items-center space-x-5 h-[400px] my-6">
-          <div className="bg-custom-bg-2 w-[60%] h-full flex justify-center items-end rounded-xl">
+        <h5 className="font-bold text-base my-2 md:my-6">OUR SOLUTION</h5>
+        <div className="md:flex md:w-[50%] justify-center items-center space-x-5 h-[400px] my-6">
+          <div className="bg-custom-bg-2 md:w-[60%] md:h-full flex justify-center items-end rounded-xl">
             <Image
               src="/images/Image[img-feature-lg].png"
               height={100}
@@ -126,18 +122,22 @@ export default function Home() {
               className="relative z-10 h-[80%] w-[80%]"
             />
           </div>
-          <div className="w-[40%] px-3">
-            <h3 className="text-2xl">Consult a Pharmacist</h3>
-            <h5 className="text-sm mt-1">
+          <div className="md:w-[40%] px-3 py-2  md:py-0">
+            <h3 className="text-xl md:text-2xl font-bold md:font-normal">
+              Consult a Pharmacist
+            </h3>
+            <h5 className="text-lg md:text-sm mt-1">
               Experience the flexibility of remote pharmaceutical consulations,
               24/7. Get trusted consultation guidance and support from our team
               of pharmacists, anytime, anywhere.
             </h5>
           </div>
         </div>
-        <div className="flex w-[50%] justify-center items-center space-x-5 h-[400px] my-6">
-          <div className="w-[40%] px-3">
-            <h3 className="text-2xl">Manage your medications use with ease</h3>
+        <div className="md:flex md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px] my-4 md:my-6">
+          <div className="md:w-[40%] px-3">
+            <h3 className="text-2xl md:py-0 py-4">
+              Manage your medications use with ease
+            </h3>
             <h5 className="text-sm mt-1">
               Keeping track of your medications should'nt be complicated. Our
               app streamliness the process, allowing you to effortlessly
