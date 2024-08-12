@@ -65,7 +65,7 @@ const Footer = () => {
         <div className="flex-1 text-gray-500">
           Copyright © 2024 Florix Healthcare Ltd. All rights reserved.
         </div>
-        <div className="text-gray-500 flex justify-center items-center md:text-2xl space-x-2 font-bold">
+        <div className="text-gray-500 flex justify-center items-center text-xl md:text-2xl space-x-2 font-bold">
           <Link href="/">
             <FaWhatsapp />
           </Link>

@@ -111,7 +111,7 @@ export default function Home() {
       {/* third content -> solutions */}
       <div className="w-full h-auto p-10 flex flex-col items-center justify-center text-primary">
         <h5 className="font-bold text-base my-2 md:my-6">OUR SOLUTION</h5>
-        <div className="md:flex md:w-[50%] justify-center items-center space-x-5 h-[400px] my-6">
+        <div className="md:flex md:w-[50%] justify-center items-center space-x-5 md:h-[400px] my-6">
           <div className="bg-custom-bg-2 md:w-[60%] md:h-full flex justify-center items-end rounded-xl">
             <Image
               src="/images/Image[img-feature-lg].png"
@@ -133,19 +133,19 @@ export default function Home() {
             </h5>
           </div>
         </div>
-        <div className="md:flex md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px] my-4 md:my-6">
+        <div className="md:flex md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px ] my-2 md:my-6">
           <div className="md:w-[40%] px-3">
-            <h3 className="text-2xl md:py-0 py-4">
+            <h3 className="text-xl font-bold md:font-normal md:text-2xl md:py-0 py-4">
               Manage your medications use with ease
             </h3>
-            <h5 className="text-sm mt-1">
+            <h5 className="text-lg md:text-sm mt-1">
               Keeping track of your medications should'nt be complicated. Our
               app streamliness the process, allowing you to effortlessly
               organize, schedule, and monitor your medication intake.Take
               control of your health journey with simplicity and peace of mind.
             </h5>
           </div>
-          <div className="bg-custom-bg-2 w-[60%] h-full flex justify-end items-end rounded-xl">
+          <div className="bg-custom-bg-2 md:w-[60%] md:h-full flex justify-end items-end rounded-xl">
             <Image
               src="/Layer_1.png"
               height={100}
@@ -156,8 +156,8 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="flex w-[50%] justify-center items-center space-x-5 h-[400px] my-6">
-          <div className="bg-custom-bg-3 w-[60%] h-full flex justify-center items-end rounded-xl">
+        <div className="md:flex md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px] my-3 md:my-6">
+          <div className="bg-custom-bg-3 md:w-[60%] md:h-full flex justify-center items-end rounded-xl">
             <Image
               src="/Layer_2.png"
               height={100}
@@ -167,9 +167,11 @@ export default function Home() {
               className="relative z-10 h-[80%] w-[80%]"
             />
           </div>
-          <div className="w-[40%] px-3">
-            <h3 className="text-2xl">Order your prescriptions and OTCs</h3>
-            <h5 className="text-sm mt-1">
+          <div className="md:w-[40%] my-2 md:my-0 md:px-3">
+            <h3 className="font-bold md:font-normal text-xl md:text-2xl">
+              Order your prescriptions and OTCs
+            </h3>
+            <h5 className="text-lg md:text-sm mt-1">
               Say goodbye to long queses! With our app you can effortlessly
               request over-the-counter medications from the comfort of your own
               home. Browse, select, and order with just a few taps.
@@ -178,11 +180,11 @@ export default function Home() {
         </div>
       </div>
       {/* fourth content */}
-      <div className="bg-[#F0F7FF] text-primary py-7 h-auto flex  flex-col justify-center items-center border">
-        <h2 className="font-bold text-2xl w-[40%] text-center">
+      <div className="bg-[#F0F7FF] text-primary py-4 md:py-7 md:h-auto flex  flex-col justify-center items-center">
+        <h2 className="font-bold text-xl md:text-2xl md:w-[40%] text-center">
           Take an advantage of the Senior Citizens Care Program (SECCAP)
         </h2>
-        <h4 className="text-sm my-6 w-[40%]">
+        <h4 className="px-3 md:px-0 text-lg md:text-sm my-2 md:my-6 md:w-[40%]">
           SECCAP is a comprehensive healthcare solution designed to support the
           well-being of the elderly in our communities.
         </h4>
@@ -191,7 +193,7 @@ export default function Home() {
           <FaArrowRight className="text-primary" />
         </button>
 
-        <div className="w-[70%] h-[60%]">
+        <div className="md:w-[70%] md:h-[60%]">
           {/*text drop sided big image*/}
           {/*
           
@@ -216,7 +218,7 @@ export default function Home() {
             className="h-full w-full"
           />
         </div>
-        <div className="flex space-x-4 my-4 w-[70%] h-[200px]">
+        <div className=" hidden md:flex md:space-x-4 md:my-4 md:w-[70%] md:h-[200px]">
           <div className="flex-1">
             <Image
               src="/Rectangle89.png"
@@ -227,7 +229,7 @@ export default function Home() {
               className="w-full h-full"
             />
           </div>
-          <div className="flex-1">
+          <div className=" flex-1">
             <Image
               src="/Rectangle90.png"
               height={100}
@@ -250,18 +252,18 @@ export default function Home() {
         </div>
       </div>
       {/* fifth content  healthcare tips*/}
-      <div className="h-screen flex items-center">
-        <div className="bg-gradient-to-b from-[#0C4E86] to-[#031320] my-16 flex flex-col text-white justify-center items-center w-full">
-          <div className="my-6 text-center flex flex-col justify-center items-center">
-            <h3 className="font-bold text-2xl my-4">
+      <div className="md:h-screen md:flex items-center">
+        <div className="bg-gradient-to-b from-[#0C4E86] to-[#031320] my-2 md:my-16 flex flex-col text-white justify-center items-center w-full">
+          <div className="px-3 my-2 md:my-6 text-center flex flex-col justify-center items-center">
+            <h3 className="font-bold text-xl md:text-2xl my-4">
               Healthcare at Your fingertip
             </h3>
-            <h6 className="text-base w-[50%]">
+            <h6 className="text-sm md:text-base md:w-[50%]">
               In 15 months, we've made significant strides in becoming a trusted
               healthcare partner to
             </h6>
           </div>
-          <div className="my-6 flex justify-center items-center gap-6">
+          <div className="hidden my-6 md:flex justify-center items-center gap-6">
             <div className="rounded-full border border-gray-200 flex-1 py-5 px-8">
               <h3 className="text-2xl">Over 100</h3>
               <h6 className="text-xs">Pharmacies across Nigeria</h6>
@@ -282,44 +284,48 @@ export default function Home() {
         </div>
       </div>
       {/* sixth content faq */}
-      <div className="bg-gradient-to-tr from-[#FEFFFF] to-[#A9DBFF] my-14 p-12 text-primary">
-        <h6 className="font-bold text-lg py-4">Frequently asked questions</h6>
-        <h3 className="font-bold text-2xl py-4">Everything you need to know</h3>
-        <h6 className="text-lg py-4">
+      <div className="bg-gradient-to-tr from-[#FEFFFF] to-[#A9DBFF] my-3 md:my-14 p-4 md:p-12 text-primary">
+        <h6 className="font-bold md:sm md:text-lg  py-2 md:py-4">
+          Frequently asked questions
+        </h6>
+        <h3 className="font-bold text-xl md:text-2xl py-2 md:py-4">
+          Everything you need to know
+        </h3>
+        <h6 className=" text:sm md:text-lg py-2 md:py-4">
           Discover helpful information about our services and patient care in
           our FAQ library
         </h6>
         <div className="text-sm">
-          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
           {/* accordion groups*/}
           <div>What are your services?</div>
 
-          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
           <div>How can I make an appointment?</div>
 
-          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
           <div>
             Can I receive a prescription through an online consultation?
           </div>
 
-          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
           <div>How much does an online consultation cost?</div>
 
-          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
           <div>Is my personal and medical information secure?</div>
 
-          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
           <div>Are your online consultations HIPAA compliant?</div>
 
-          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
           <div>How much does an online consultation cost?</div>
 
-          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
+          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
           <div>Can I follow up with my consultant after the consultation?</div>
 
           <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
         </div>
-        <h5 className="text-xs py-6">
+        <h5 className="text-xs py-3 md:py-6">
           If you have anything else you want to ask,
           <Link href="/" className="font-bold">
             reach out to us.
@@ -328,11 +334,16 @@ export default function Home() {
       </div>
       <div>
         {/* faq footer*/}
-        <div className="w-full flex flex-col justify-center items-center">
-          <div className="text-sm  flex justify-center items-stretch w-[70%] gap-5">
-            <div className="flex-1 bg-custom-bg-4 p-7 rounded-xl">
+        <div className="w-full md:flex flex-col justify-center items-center">
+          <div className="text-sm  md:flex justify-center items-stretch md:w-[70%] gap-5">
+            <div className="flex-1 bg-custom-bg-4 p-3 md:p-7 rounded-xl">
               <div className="w-[40px] h-[40px]">
-                <Image src="/SocialIcons.svg" height={100} width={100} />
+                <Image
+                  src="/SocialIcons.svg"
+                  height={100}
+                  width={100}
+                  unoptimized={true}
+                />
               </div>
               <h5 className=" text-gray-200 font-bold py-2">Stay up to date</h5>
               <h6 className="text-gray-300">
@@ -345,9 +356,14 @@ export default function Home() {
                 conversation.
               </h6>
             </div>
-            <div className="flex-1 bg-custom-bg-5 p-7 rounded-xl ">
+            <div className="flex-1 bg-custom-bg-5 p-3 md:p-7 rounded-xl ">
               <div className="w-[40px]  h-[40px]">
-                <Image src="/SocialIcons.svg" height={100} width={100} />
+                <Image
+                  src="/SocialIcons.svg"
+                  height={100}
+                  width={100}
+                  unoptimized={true}
+                />
               </div>
               <h5 className=" text-gray-200 font-bold py-2">Stay up to date</h5>
               <h6 className="text-gray-300">
@@ -360,9 +376,9 @@ export default function Home() {
               </h6>
             </div>
           </div>
-          <div className="flex justify-center items-center w-[70%] gap-5 my-12 text-gray-300 text-sm">
-            <div className="flex-1">
-              <div className="text-gray-500 text-sm">
+          <div className="px-3 md:flex justify-center items-center md:w-[70%]  md:gap-5 my-4 md:my-12 text-gray-300 text-sm">
+            <div className="md:flex-1">
+              <div className=" text-gray-500 text-sm">
                 Subscribe to our newsletter
               </div>
               <h6>
@@ -375,7 +391,7 @@ export default function Home() {
                 <input
                   type="text"
                   placeholder="youremail.com"
-                  className="w-[60%] p-2 bg-gray-300 rounded-lg"
+                  className="md:w-[60%] p-2 bg-gray-300 rounded-lg"
                 ></input>{" "}
                 <button className="p-2 text-sm bg-gray-800 text-gray-200 rounded-lg w-inherit">
                   Subscribe
