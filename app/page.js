@@ -383,7 +383,7 @@ export default function Home() {
               </div>
               <h6>
                 Receive exclusive updates on new products and services before
-                anyone else
+                anyone elsesdd
               </h6>
             </div>
             <div className="flex-1">
