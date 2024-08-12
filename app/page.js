@@ -7,7 +7,7 @@ export default function Home() {
       {/* nav content */}
       {/* first content */}
       <div className="bg-custom-bg-1  py-10 flex flex-col items-center">
-        <h1 className="px-2 md:px-0 text-xl md:text-4xl md:w-[600px] text-gray-200 mt-12 text-center">
+        <h1 className="px-2 md:px-0 text-base md:text-3xl md:w-[600px] text-gray-200 mt-12 text-center">
           Connect with Expert Pharmacists Anytime, Anywhere with Flolog
         </h1>
         <h4 className="px-2 m-2 md:m-4 text-sm md:text-base md:w-[600px] text-gray-400  text-center">
@@ -15,7 +15,7 @@ export default function Home() {
           medications easily, and lots more.
         </h4>
         <div className=" w-[95%]  md:w-[40%] flex justify-center items-center flex-row m-4 h-[300px] md:h-[400px]">
-          <div className="h-full w-[50%] mr-[-60px] z-0">
+          <div className="h-full w-[60%] mr-[-60px] z-0">
             <Image
               width={100}
               height={100}
@@ -24,7 +24,7 @@ export default function Home() {
               className="h-full w-full"
             />
           </div>
-          <div className="flex flex-col justify-center w-[50%] h-full">
+          <div className="flex flex-col justify-center w-[40%] h-full">
             <Image
               width={100}
               height={100}
@@ -337,9 +337,9 @@ export default function Home() {
         <div className="w-full md:flex flex-col justify-center items-center">
           <div className="text-sm  md:flex justify-center items-stretch md:w-[70%] gap-5">
             <div className="flex-1 bg-custom-bg-4 p-3 md:p-7 rounded-xl">
-              <div className="w-[40px] h-[40px]">
+              <div className="w-[25px] h-[25px]">
                 <Image
-                  src="/SocialIcons.svg"
+                  src="/whatsap.svg"
                   height={100}
                   width={100}
                   unoptimized={true}
@@ -348,7 +348,7 @@ export default function Home() {
               <h5 className=" text-gray-200 font-bold py-2">Stay up to date</h5>
               <h6 className="text-gray-300">
                 Stay informed and engaged with our latest news, updates, and
-                insights {/**/}s
+                insights {/**/}
                 <Link href="/" className="underline text-gray-100">
                   by joining our WhatsApp community
                 </Link>
@@ -357,9 +357,9 @@ export default function Home() {
               </h6>
             </div>
             <div className="flex-1 bg-custom-bg-5 p-3 md:p-7 rounded-xl ">
-              <div className="w-[40px]  h-[40px]">
+              <div className="w-[25px]  h-[25px]">
                 <Image
-                  src="/SocialIcons.svg"
+                  src="/twitter.svg"
                   height={100}
                   width={100}
                   unoptimized={true}
@@ -370,15 +370,15 @@ export default function Home() {
                 We’d love to stay connected with you. If the feeling’s mutual,
                 follow{" "}
                 <Link href="/" className=" text-gray-100 underline">
-                  @flolog.co
+                  @flolog.com
                 </Link>{" "}
                 on Twitter for the latest news and updates.
               </h6>
             </div>
           </div>
-          <div className="px-3 md:flex justify-center items-center md:w-[70%]  md:gap-5 my-4 md:my-12 text-gray-300 text-sm">
+          <div className=" px-3 md:flex justify-center items-center md:w-[70%]  md:gap-5 my-4 md:my-12 text-primary text-sm">
             <div className="md:flex-1">
-              <div className=" text-gray-500 text-sm">
+              <div className="font-bold text-primary text-sm">
                 Subscribe to our newsletter
               </div>
               <h6>

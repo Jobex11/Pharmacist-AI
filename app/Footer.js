@@ -4,8 +4,8 @@ import Image from "next/image";
 import { FaTwitter, FaFacebook, FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div>
-      <div className="mt-10 p-2 md:p-10 w-full text-gray-500 text-xs">
+    <div className="bg-[#f3f3fc] text-primary">
+      <div className=" mt-10 p-2 md:p-10 w-full t text-xs">
         <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
         <div className="md:flex w-full">
           <div className="items-center p-2 md:p-0 md:items-start flex-1 flex flex-col space-y-4">
@@ -62,10 +62,10 @@ const Footer = () => {
       </div>
       <div className="md:flex w-full justify-center items-center p-2 md:p-5 md:px-10 text-xs md:text-base">
         {/* this is for footer*/}
-        <div className="flex-1 text-gray-500">
+        <div className="flex-1 ">
           Copyright © 2024 Florix Healthcare Ltd. All rights reserved.
         </div>
-        <div className="text-gray-500 flex justify-center items-center text-xl md:text-2xl space-x-2 font-bold">
+        <div className=" flex justify-center items-center text-xl md:text-2xl space-x-2 font-bold">
           <Link href="/">
             <FaWhatsapp />
           </Link>
