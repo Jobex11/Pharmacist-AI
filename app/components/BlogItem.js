@@ -1,5 +1,6 @@
 const blogs = [
   {
+    id: 1,
     title: "Chron’s Disease: Signs and Symptoms, Causes and Treatment",
     image:
       "https://th.bing.com/th/id/OIP.cplq26tyG2ss4zHzVTV5YwHaFj?rs=1&pid=ImgDetMain",
@@ -8,6 +9,7 @@ const blogs = [
     postTime: "6 mins read",
   },
   {
+    id: 2,
     title: "Managing Ulcerative Colitis: A Comprehensive Guide",
     image:
       "https://cdn-community.pressidium.com/wp-content/uploads/2019/08/Ulcerative-Colitis-1024x1024.jpg",
@@ -16,6 +18,7 @@ const blogs = [
     postTime: "7 mins read",
   },
   {
+    id: 3,
     title: "Healthy Eating for a Better Digestive System",
     image:
       "https://th.bing.com/th/id/R.a7a7f0bed7879b58d82f8a36d0329c41?rik=BRSxQ8kMLfw6Hg&pid=ImgRaw&r=0",
@@ -24,6 +27,7 @@ const blogs = [
     postTime: "4 mins read",
   },
   {
+    id: 4,
     title: "How Stress Affects Your Digestive Health",
     image:
       "https://th.bing.com/th/id/R.14e649abe0b03f783d2fb6951a8da7e4?rik=srOGBxnxOroibw&riu=http%3a%2f%2fwww.fivex3.com%2fwp-content%2fuploads%2f2016%2f05%2fStress1.jpg&ehk=G%2bYatbBksRIGoiU50ma11oEYzKDY5vWif2vF1N0xdHM%3d&risl=&pid=ImgRaw&r=0",
@@ -32,6 +36,7 @@ const blogs = [
     postTime: "6 mins read",
   },
   {
+    id: 5,
     title: "Probiotics: The Key to a Healthy Gut?",
     image:
       "https://th.bing.com/th/id/R.4b59eb3531a9e429dd3a8cd6878730bc?rik=qAYbIPrvmL8JBw&pid=ImgRaw&r=0",
@@ -40,6 +45,7 @@ const blogs = [
     postTime: "5 mins read",
   },
   {
+    id: 6,
     title: "Gluten-Free Diets: Are They Really Necessary?",
     image:
       "https://th.bing.com/th/id/OIP.hzH6HqQ1rLUIY-dKc-eu8QHaEK?rs=1&pid=ImgDetMain",
@@ -48,6 +54,7 @@ const blogs = [
     postTime: "7 mins read",
   },
   {
+    id: 7,
     title: "The Role of Fiber in Digestive Health",
     image:
       "https://th.bing.com/th/id/OIP.qBp7ZILRAz6zIJOdri3QRQHaE7?rs=1&pid=ImgDetMain",
@@ -56,6 +63,7 @@ const blogs = [
     postTime: "4 mins read",
   },
   {
+    id: 8,
     title: "Common Digestive Disorders and Their Symptoms",
     image:
       "https://th.bing.com/th/id/R.ca24f0961cc16e2fe0b3980fd22331a6?rik=7PT1oy%2bLqw%2bUAg&pid=ImgRaw&r=0",
@@ -64,6 +72,7 @@ const blogs = [
     postTime: "6 mins read",
   },
   {
+    id: 9,
     title:
       "Understanding Irritable Bowel Syndrome (IBS): Symptoms and Management",
     image:
