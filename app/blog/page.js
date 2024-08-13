@@ -44,7 +44,7 @@ const Page = () => {
               className="bg-white p-4 shadow-md cursor-pointer"
               onClick={() => handleBlogClick(blog)}
             >
-              <div className="w-full bg-gray-300 h-[250px]">
+              <div className="w-full bg-gray-300 h-[250px] rounded-lg md:rounded-none">
                 <Image
                   src={blog.image}
                   alt={blog.title}
@@ -52,7 +52,7 @@ const Page = () => {
                   width={100}
                   quality={30}
                   unoptimized={true}
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover rounded-lg md:rounded-none"
                 />
               </div>
               <h3 className="font-bold text-base mt-2">{blog.title}</h3>

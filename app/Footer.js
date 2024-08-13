@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="bg-[#f3f3fc] text-primary">
       <div className="w-full md:flex flex-col justify-center items-center">
         <div className="px-3 md:flex justify-center items-center md:w-[70%]  md:gap-5 my-4 md:my-12 text-primary text-sm">
-          <div className="md:flex-1">
+          <div className="md:flex-1 py-1 md:py-0">
             <div className="font-bold text-primary text-sm">
               Subscribe to our newsletter
             </div>
