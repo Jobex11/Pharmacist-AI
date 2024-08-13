@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        primary: "#0C4E86",
         "custom-bg-cyan":
           "linear-gradient(235.43deg, #FEFFFF 12.74%, #A9DBFF 96.42%)",
         "custom-bg-1": "linear-gradient(180deg, #0C4E86 0%, #031320 100%)",

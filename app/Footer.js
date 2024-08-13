@@ -5,6 +5,39 @@ import { FaTwitter, FaFacebook, FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="bg-[#f3f3fc] text-primary">
+      <div className="w-full md:flex flex-col justify-center items-center">
+        <div className="px-3 md:flex justify-center items-center md:w-[70%]  md:gap-5 my-4 md:my-12 text-primary text-sm">
+          <div className="md:flex-1">
+            <div className="font-bold text-primary text-sm">
+              Subscribe to our newsletter
+            </div>
+            <h6>
+              Receive exclusive updates on new products and services before
+              anyone else does
+            </h6>
+          </div>
+          <div className="flex-1">
+            <div className="w-full space-x-2 mb-2">
+              <input
+                type="text"
+                placeholder="youremail.com"
+                className="md:w-[60%] p-2 bg-gray-300 rounded-lg"
+              ></input>{" "}
+              <button className="p-2 text-sm bg-gray-800 text-gray-200 rounded-lg w-inherit">
+                Subscribe
+              </button>
+            </div>
+            <h6 className="text-xs">
+              By providing your email address, you consent to receive Flolog's
+              monthly newsletter, which includes updates, insights, and industry
+              news. Please review our Privacy Policy for details on how we
+              protect and manage your data. You may revoke your consent and
+              unsubscribe at any time.
+            </h6>
+          </div>
+        </div>
+      </div>
+
       <div className=" mt-10 p-2 md:p-10 w-full t text-xs">
         <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
         <div className="md:flex w-full">
