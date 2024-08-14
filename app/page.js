@@ -16,13 +16,13 @@ export default function Home() {
           medications easily, and lots more.
         </h4>
         <div className=" w-[95%]  md:w-[40%] flex justify-center items-center flex-row m-4 h-[300px] md:h-[400px]">
-          <div className="h-full w-[60%] mr-[-60px] z-0">
+          <div className="flex flex-col justify-center h-full w-[60%] mr-[-60px] z-0">
             <Image
               width={100}
               height={100}
               unoptimized={true}
               src="/Group6321.png"
-              className="h-[90%] w-full"
+              className="h-[80%] w-full"
             />
           </div>
           <div className="flex flex-col justify-center w-[40%] h-full">
