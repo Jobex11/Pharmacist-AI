@@ -107,14 +107,32 @@ const page = () => {
               <h5 className="text-sm">Co-founder and CEO</h5>
             </div>
             <div className="my-6 md:my-0 flex flex-col items-center md:block text-center">
-              <div className="border w-[120px] md:w-[220px] h-[150px] md:h-[250px]"></div>
+              <div className="border w-[120px] md:w-[220px] h-[150px] md:h-[250px]">
+              <Image
+                  src="/images/man.jpg"
+                  width={100}
+                  height={100}
+                  quality={100}
+                  unoptimized={true}
+                  className="w-full h-full"
+                />
+              </div>
               <h3 className="md:py-1 text-sm md:text-lg font-bold">
                 Raphael Odoh
               </h3>
               <h5 className="text-sm">Chief Operations Officer</h5>
             </div>
             <div className="my-6 md:my-0 flex flex-col items-center md:block text-center">
-              <div className="border w-[120px] md:w-[220px] h-[150px] md:h-[250px]"></div>
+              <div className="border w-[120px] md:w-[220px] h-[150px] md:h-[250px]">
+              <Image
+                  src="/images/lady.jpg"
+                  width={100}
+                  height={100}
+                  quality={100}
+                  unoptimized={true}
+                  className="w-full h-full"
+                />
+              </div>
               <h3 className="md:py-1 text-sm md:text-lg font-bold">
                 Joy Enwerem
               </h3>

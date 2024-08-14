@@ -22,14 +22,14 @@ const Navbar = () => {
 
   return (
     <nav className="flex absolute overflow-hidden top-0 left-0 justify-between items-center py-6 px-7 w-full z-100">
-      <div className="flex space-x-4">
+      <div className="flex space-x-4 justify-center items-center">
         <Link href="/">
-          <div className="mr-6">
+          <div className="mr-6 ">
             <Image
-              width={100}
-              height={100}
+              width={150}
+              height={150}
               unoptimized={true}
-              src="/Logo.png"
+              src="/images/Logo.png"
               alt="Logo"
             />
           </div>

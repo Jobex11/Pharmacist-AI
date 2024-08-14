@@ -68,26 +68,46 @@ const Footer = () => {
             <div className="flex-1">
               <h5 className="font-bold space-y-2  md:space-y-3">QUICK LINKS</h5>
               <ul className="space-y-1 md:space-y-2">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Blog</li>
+                <Link href="/">
+                  <li>Home</li>
+                </Link>
+                <Link href="/about">
+                  <li>About Us</li>
+                </Link>
+                <Link href="/blog">
+                  <li>Blog</li>
+                </Link>
               </ul>
             </div>
             <div className="flex-1">
               <h5 className="font-bold space-y-2  md:space-y-3">SOLUTIONS</h5>
               <ul className="space-y-1 md:space-y-2">
-                <li>Consult Pharmacist</li>
-                <li>Request Medication</li>
-                <li>SECCAP Program</li>
-                <li>Emergency Medicine</li>
+                <Link href="/">
+                  <li>Consult Pharmacist</li>
+                </Link>
+                <Link href="/">
+                  <li>Request Medication</li>
+                </Link>
+                <Link href="/">
+                  <li>SECCAP Program</li>
+                </Link>
+                <Link href="/">
+                  <li>Emergency Medicine</li>
+                </Link>
               </ul>
             </div>
             <div className="flex-1">
               <h5 className="font-bold space-y-2  md:space-y-3">LEGAL</h5>
               <ul className="space-y-1 md:space-y-2">
-                <li>Privacy Policy</li>
-                <li>Terms & Conditions</li>
-                <li>Acceptable Use</li>
+                <Link href="/privacypolicy">
+                  <li>Privacy Policy</li>
+                </Link>
+                <Link href="/privacypolicy">
+                  <li>Terms & Conditions</li>
+                </Link>
+                <Link href="/privacypolicy">
+                  <li>Acceptable Use</li>
+                </Link>
               </ul>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowUp, FaArrowDown, FaArrowRight } from "react-icons/fa";
 export default function Home() {
   return (
     <div className="w-full overflow-hidden">
@@ -94,17 +94,19 @@ export default function Home() {
         <hr className="border-[#0B3D7929] my-5 md:my-10 h-1 w-full"></hr>
         <div className="mx-2 px-2 md:px-0">
           <h1 className="md:w-[600px]  text-xl md:text-3xl font-bold md:text-center">
-            Maximize Your Medication Safety and Convenience with Floglog.
+            Maximize Your Medication Safety and Convenience with FloglogPharma.
           </h1>
           <h3 className="md:w-[600px]  text-base md:text-center my-3">
             Safely manage your medications and simplify your healthcare routine
             with Flolog's innovative solutions
           </h3>
-          <div className="md:text-center">
-            <button className="bg-gray-200 rounded-lg text-sm cursor-pointer flex justify-center items-center gap-1 p-2 text-primary hover:bg-gray-100 hover:transition-all my-4">
-              Get started
-              <FaArrowRight className="text-primary" />
-            </button>
+          <div className="flex justify-center md:text-center">
+            <Link href="/contact">
+              <button className="bg-gray-200 rounded-lg text-sm cursor-pointer flex justify-center items-center gap-1 p-2 text-primary hover:bg-gray-100 hover:transition-all my-4">
+                Get started
+                <FaArrowRight className="text-primary" />
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -188,10 +190,12 @@ export default function Home() {
           SECCAP is a comprehensive healthcare solution designed to support the
           well-being of the elderly in our communities.
         </h4>
-        <button className="bg-gray-200 rounded-lg text-sm cursor-pointer flex justify-center items-center gap-1 p-2 text-primary hover:bg-gray-100 hover:transition-all my-4">
-          Get started
-          <FaArrowRight className="text-primary" />
-        </button>
+        <Link href="/contact">
+          <div className="bg-gray-200 rounded-lg text-sm cursor-pointer flex justify-center items-center gap-1 p-2 text-primary hover:bg-gray-100 hover:transition-all my-4">
+            Get started
+            <FaArrowRight className="text-primary" />
+          </div>
+        </Link>
 
         <div className="md:w-[70%] md:h-[60%]">
           {/*text drop sided big image*/}
@@ -301,7 +305,10 @@ export default function Home() {
           <div>What are your services?</div>
 
           <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-          <div>How can I make an appointment?</div>
+          <div>
+            How can I make an appointment?
+            <div className="hidden"></div>
+          </div>
 
           <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
           <div>

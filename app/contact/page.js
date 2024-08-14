@@ -101,7 +101,7 @@ const page = () => {
             <h5 className=" font-bold text-sm ">Email Address</h5>
             <div className="w-6 h-[2px] bg-[#0C4E86]"></div>
             <div className="bg bg-primary w-4"></div>
-            <h4 className="font-bold text-xs">info@floglog.co</h4>
+            <h4 className="font-bold text-xs">info@FloglogPharma.co</h4>
             <h4 className="text-xs py-1">
               <h4>Assistance hours:</h4>
               <h4>Monday - Friday 8 am to 6 pm WAT</h4>
