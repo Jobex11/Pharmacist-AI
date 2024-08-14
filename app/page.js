@@ -7,7 +7,15 @@ export default function Home() {
     <div className="w-full overflow-hidden">
       {/* nav content */}
       {/* first content */}
-      <div className="bg-custom-bg-1  py-10 flex flex-col items-center">
+      <div
+        className="bg-custom-bg-1  py-10 flex flex-col items-center "
+        style={{
+          backgroundImage: `
+          url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%' height='100%'%3E%3Cline x1='0' y1='0' x2='100%' y2='0' stroke='rgba(0, 0, 0, 0.1)' stroke-width='1' /%3E%3Cline x1='0' y1='10' x2='100%' y2='10' stroke='rgba(0, 0, 0, 0.1)' stroke-width='1' /%3E%3C/svg%3E")
+        `,
+          backgroundSize: "20px 20px",
+        }}
+      >
         <h1 className="px-2 md:px-0 text-base md:text-3xl md:w-[600px] text-gray-200 mt-12 text-center">
           Connect with Expert Pharmacists Anytime, Anywhere with FloglogPharma
         </h1>
@@ -22,7 +30,7 @@ export default function Home() {
               height={100}
               unoptimized={true}
               src="/Group6321.png"
-              className="h-full w-full"
+              className="h-[90%] w-full"
             />
           </div>
           <div className="flex flex-col justify-center w-[40%] h-full">
@@ -38,7 +46,7 @@ export default function Home() {
               height={100}
               unoptimized={true}
               src="/Group6322.png"
-              className="h-[50%] object-cover w-full"
+              className="h-[50%] object-cover w-full rounded-lg"
             />
           </div>
         </div>
@@ -99,7 +107,7 @@ export default function Home() {
           </h1>
           <h3 className="md:w-[600px]  text-base md:text-center my-3">
             Safely manage your medications and simplify your healthcare routine
-            with Flolog's innovative solutions
+            with Flologpharma's innovative solutions
           </h3>
           <div className="flex justify-center md:text-center">
             <Link href="/contact">
