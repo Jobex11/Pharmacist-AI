@@ -93,7 +93,7 @@ export default function Home() {
           </div>
         </div>
         <hr className="border-[#0B3D7929] my-5 md:my-10 h-1 w-full"></hr>
-        <div className="mx-2 px-7 md:px-0">
+        <div className="mx-2 px-6 md:px-0">
           <h1 className="md:w-[600px]  text-xl md:text-3xl font-bold md:text-center">
             Maximize Your Medication Safety and Convenience with FloglogPharma.
           </h1>
