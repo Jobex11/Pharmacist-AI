@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FaArrowUp, FaArrowDown, FaArrowRight } from "react-icons/fa";
+import FAQ from "./components/FAQ";
 export default function Home() {
   return (
     <div className="w-full overflow-hidden">
@@ -299,39 +300,8 @@ export default function Home() {
           Discover helpful information about our services and patient care in
           our FAQ library
         </h6>
-        <div className="text-sm">
-          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-          {/* accordion groups*/}
-          <div>What are your services?</div>
-
-          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-          <div>
-            How can I make an appointment?
-            <div className="hidden"></div>
-          </div>
-
-          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-          <div>
-            Can I receive a prescription through an online consultation?
-          </div>
-
-          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-          <div>How much does an online consultation cost?</div>
-
-          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-          <div>Is my personal and medical information secure?</div>
-
-          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-          <div>Are your online consultations HIPAA compliant?</div>
-
-          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-          <div>How much does an online consultation cost?</div>
-
-          <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-          <div>Can I follow up with my consultant after the consultation?</div>
-
-          <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
-        </div>
+        {/* faq components*/}
+        <FAQ />
         <h5 className="text-xs py-3 md:py-6">
           If you have anything else you want to ask,
           <Link href="/" className="font-bold">
@@ -360,8 +330,7 @@ export default function Home() {
                 <Link href="/" className="underline text-gray-100">
                   by joining our WhatsApp community
                 </Link>
-                . We value your connection and look forward to continuing the
-                conversation.
+                . We value your connection
               </h6>
             </div>
             <div className="my-2 md:my-0 flex-1 bg-custom-bg-5 p-3 md:p-7 rounded-xl ">
