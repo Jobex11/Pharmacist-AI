@@ -93,7 +93,7 @@ export default function Home() {
           </div>
         </div>
         <hr className="border-[#0B3D7929] my-5 md:my-10 h-1 w-full"></hr>
-        <div className="mx-2 px-2 md:px-0">
+        <div className="mx-2 px-7 md:px-0">
           <h1 className="md:w-[600px]  text-xl md:text-3xl font-bold md:text-center">
             Maximize Your Medication Safety and Convenience with FloglogPharma.
           </h1>
@@ -114,7 +114,7 @@ export default function Home() {
       {/* third content -> solutions */}
       <div className="w-full h-auto p-10 flex flex-col items-center justify-center text-primary">
         <h5 className="font-bold text-base my-2 md:my-6">OUR SOLUTION</h5>
-        <div className="md:flex md:w-[50%] justify-center items-center space-x-5 md:h-[400px] my-6">
+        <div className="md:flex md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px] my-6">
           <div className="bg-custom-bg-2 md:w-[60%] md:h-full flex justify-center items-end rounded-xl">
             <Image
               src="/images/Image[img-feature-lg].png"
@@ -125,7 +125,7 @@ export default function Home() {
               className="relative z-10 h-[80%] w-[80%]"
             />
           </div>
-          <div className="md:w-[40%] px-3 py-2  md:py-0">
+          <div className="md:w-[40%] px-0 py-2  md:py-0">
             <h3 className="text-xl md:text-2xl font-bold md:font-normal">
               Consult a Pharmacist
             </h3>
@@ -137,7 +137,7 @@ export default function Home() {
           </div>
         </div>
         <div className="md:flex md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px ] my-2 md:my-6">
-          <div className="md:w-[40%] px-3">
+          <div className="md:w-[40%] px-0 md:px-3">
             <h3 className="text-xl font-bold md:font-normal md:text-2xl md:py-0 py-4">
               Manage your medications use with ease
             </h3>
@@ -170,7 +170,7 @@ export default function Home() {
               className="relative z-10 h-[80%] w-[80%]"
             />
           </div>
-          <div className="md:w-[40%] my-2 md:my-0 md:px-3">
+          <div className="md:w-[40%] px-0 my-2 md:my-0 md:px-3">
             <h3 className="font-bold md:font-normal text-xl md:text-2xl">
               Order your prescriptions and OTCs
             </h3>
@@ -183,11 +183,11 @@ export default function Home() {
         </div>
       </div>
       {/* fourth content */}
-      <div className="bg-[#F0F7FF] text-primary py-4 md:py-7 md:h-auto flex  flex-col justify-center items-center">
-        <h2 className="font-bold text-xl md:text-2xl md:w-[40%] text-center">
+      <div className="bg-[#F0F7FF] px-6 md:px-0 text-primary py-4 md:py-7 md:h-auto flex  flex-col justify-center items-center">
+        <h2 className="font-bold text-xl md:text-2xl md:w-[40%] text-start md:text-center">
           Take an advantage of the Senior Citizens Care Program (SECCAP)
         </h2>
-        <h4 className="px-3 md:px-0 text-lg md:text-sm my-2 md:my-6 md:w-[40%]">
+        <h4 className=" md:px-0 text-lg md:text-sm my-2 md:my-6 md:w-[40%]">
           SECCAP is a comprehensive healthcare solution designed to support the
           well-being of the elderly in our communities.
         </h4>
