@@ -9,7 +9,7 @@ export default function Home() {
       {/* first content */}
       <div className="bg-custom-bg-1  py-10 flex flex-col items-center">
         <h1 className="px-2 md:px-0 text-base md:text-3xl md:w-[600px] text-gray-200 mt-12 text-center">
-          Connect with Expert Pharmacists Anytime, Anywhere with Flolog
+          Connect with Expert Pharmacists Anytime, Anywhere with FloglogPharma
         </h1>
         <h4 className="px-2 m-2 md:m-4 text-sm md:text-base md:w-[600px] text-gray-400  text-center">
           Experience Premium Pharmaceutical Care on your mobile. Refill
