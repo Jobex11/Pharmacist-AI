@@ -45,7 +45,7 @@ export default function Home() {
       </div>
 
       {/* second content */}
-      <div className="bg-custom-bg-cyan text-[#0C4E86]  md:h-screen w-full py-10 flex flex-col items-center">
+      <div className="bg-custom-bg-cyan text-[#0C4E86]   w-full py-10 flex flex-col items-center">
         <h1 className=" w-[300px] md:w-[600px]  text-xl md:text-3xl font-bold text-center my-0 md:my-2">
           We guarantee you the CAPS of healthcare
         </h1>
@@ -101,7 +101,7 @@ export default function Home() {
             Safely manage your medications and simplify your healthcare routine
             with Flologpharma's innovative solutions
           </h3>
-          <div className="flex justify-center md:text-center">
+          <div className="flex justify-center items-center md:text-center">
             <Link href="/contact">
               <button className="bg-gray-200 rounded-lg text-sm cursor-pointer flex justify-center items-center gap-1 p-2 text-primary hover:bg-gray-100 hover:transition-all my-4">
                 Get started
@@ -316,18 +316,23 @@ export default function Home() {
           <div className="p-3 md:p-0 text-sm  md:flex justify-center items-stretch md:w-[70%] gap-5">
             <div className="my-2 md:my-0 flex-1 bg-custom-bg-4 p-3 md:p-7 rounded-xl">
               <div className="w-[25px] h-[25px]">
-                <Image
-                  src="/whatsap.svg"
-                  height={100}
-                  width={100}
-                  unoptimized={true}
-                />
+                <Link href="https://chat.whatsapp.com/IeKaaoCxj2612rlCbOpXM5">
+                  <Image
+                    src="/whatsap.svg"
+                    height={100}
+                    width={100}
+                    unoptimized={true}
+                  />
+                </Link>
               </div>
               <h5 className=" text-gray-200 font-bold py-2">Stay up to date</h5>
               <h6 className="text-gray-300">
                 Stay informed and engaged with our latest news, updates, and
                 insights {/**/}
-                <Link href="/" className="underline text-gray-100">
+                <Link
+                  href="https://chat.whatsapp.com/IeKaaoCxj2612rlCbOpXM5"
+                  className="underline text-gray-100"
+                >
                   by joining our WhatsApp community
                 </Link>
                 . We value your connection
@@ -335,21 +340,26 @@ export default function Home() {
             </div>
             <div className="my-2 md:my-0 flex-1 bg-custom-bg-5 p-3 md:p-7 rounded-xl ">
               <div className="w-[25px]  h-[25px]">
-                <Image
-                  src="/twitter.svg"
-                  height={100}
-                  width={100}
-                  unoptimized={true}
-                />
+                <Link href="https://www.instagram.com/flologpharma.co?igsh=YzBocGZsaHJxcjFy">
+                  <Image
+                    src="/instagram.svg"
+                    height={100}
+                    width={100}
+                    unoptimized={true}
+                  />
+                </Link>
               </div>
               <h5 className=" text-gray-200 font-bold py-2">Stay up to date</h5>
               <h6 className="text-gray-300">
                 We’d love to stay connected with you. If the feeling’s mutual,
                 follow{" "}
-                <Link href="/" className=" text-gray-100 underline">
-                  @flolog.com
+                <Link
+                  href="https://www.instagram.com/flologpharma.co?igsh=YzBocGZsaHJxcjFy"
+                  className="text-gray-100 underline"
+                >
+                  @flologpharma's.com
                 </Link>{" "}
-                on Twitter for the latest news and updates.
+                on Instagram for the latest news and updates.
               </h6>
             </div>
           </div>

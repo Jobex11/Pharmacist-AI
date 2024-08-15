@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FaTwitter, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="bg-[#f3f3fc] text-primary">
@@ -92,7 +92,7 @@ const Footer = () => {
                   <li>SECCAP Program</li>
                 </Link>
                 <Link href="/">
-                  <li>Emergency Medicine</li>
+                  <li>Emergency Medicines</li>
                 </Link>
               </ul>
             </div>
@@ -119,7 +119,7 @@ const Footer = () => {
           Copyright © 2024 Florix Healthcare Ltd. All rights reserved.
         </div>
         <div className=" flex justify-center items-center text-xl md:text-2xl space-x-2 font-bold">
-          <Link href="/">
+          <Link href="https://wa.me/2349055645316" passHref>
             <FaWhatsapp />
           </Link>
           <div className="font-normal">/</div>
@@ -127,8 +127,8 @@ const Footer = () => {
             <FaFacebook />
           </Link>
           <div className="font-normal">/</div>
-          <Link href="/">
-            <FaTwitter />
+          <Link href="https://www.instagram.com/flologpharma.co" passHref>
+            <FaInstagram />
           </Link>
         </div>
       </div>

@@ -27,13 +27,14 @@ const page = () => {
               But, Covid-19 changed the course of our journey. You may call it
               fate or destiny, but we found a higher calling to scale our impact
               vision, utilizing healthcare as a tool for the greater good. This
-              birthed Florix Healthcare Limited, the parent company of Flolog,
-              in 2020.  The fulfillment, as they say, is not in the destination
-              but in the journey. Indeed, we have had one awesome journey
-              building this life, not just a company, called FLOLOG.”
+              birthed Florix Healthcare Limited, the parent company of
+              Floglogpharma, in 2020.  The fulfillment, as they say, is not in
+              the destination but in the journey. Indeed, we have had one
+              awesome journey building this life, not just a company, called
+              Floglogpharma.”
             </h3>
             <h3 className="my-3">
-              FLOLOG provides you viable, efficient, and cost-effective
+              Floglogpharma provides you viable, efficient, and cost-effective
               healthcare solutions including:
               <ul className="list-disc text-primary pl-5">
                 <li>
@@ -55,10 +56,7 @@ const page = () => {
         <div className="md:w-[20%] text-center md:text-start py-2 md:py-0">
           <hr />
           <h2 className="text-base font-bold py-2">The Vision</h2>
-          <h3>
-            Healthcare for every African. (Bridging Healthcare Gaps for a
-            Healthier Africa)
-          </h3>
+          <h3>Bridging Healthcare Gaps for a Healthier Africa</h3>
         </div>
         <div className="md:w-[20%] text-center md:text-start py-2 md:py-0">
           <hr />
@@ -84,9 +82,9 @@ const page = () => {
           <div className="flex flex-col justify-center items-center">
             <h2 className="font-bold text-lg md:text-xl">The Founding Team</h2>
             <h3 className="md:w-[40%] text-center">
-              To provide these services, Flolog deploys the right technology,
-              the right team, and at the right time always. The management team
-              is led by three stellar Pharmacists
+              To provide these services, Floglogpharma deploys the right
+              technology, the right team, and at the right time always. The
+              management team is led by three stellar Pharmacists
             </h3>
           </div>
           <div className="mt-6 md:mt-10 md:flex justify-center items-center md:space-x-12">
@@ -108,7 +106,7 @@ const page = () => {
             </div>
             <div className="my-6 md:my-0 flex flex-col items-center md:block text-center">
               <div className="border w-[120px] md:w-[220px] h-[150px] md:h-[250px]">
-              <Image
+                <Image
                   src="/images/man.jpg"
                   width={100}
                   height={100}
@@ -120,11 +118,11 @@ const page = () => {
               <h3 className="md:py-1 text-sm md:text-lg font-bold">
                 Raphael Odoh
               </h3>
-              <h5 className="text-sm">Chief Operations Officer</h5>
+              <h5 className="text-sm">COO, Design and Development</h5>
             </div>
             <div className="my-6 md:my-0 flex flex-col items-center md:block text-center">
               <div className="border w-[120px] md:w-[220px] h-[150px] md:h-[250px]">
-              <Image
+                <Image
                   src="/images/lady.jpg"
                   width={100}
                   height={100}
@@ -136,7 +134,7 @@ const page = () => {
               <h3 className="md:py-1 text-sm md:text-lg font-bold">
                 Joy Enwerem
               </h3>
-              <h5 className="text-sm">COO Finance and Strategy</h5>
+              <h5 className="text-sm">COO, Finance and Strategy</h5>
             </div>
           </div>
         </div>
