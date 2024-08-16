@@ -5,13 +5,13 @@ const page = () => {
   return (
     <div className="w-full overflow-hidden flex flex-col">
       <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4">
-        <h1 className="font-bold w-[60%] md:w-[30%] text-gray-50 text-xl md:text-3xl">
+        <h1 className="font-semibold w-[60%] md:w-[30%] text-gray-50 text-xl md:text-3xl">
           Revolutionizing access to Pharmacists and Medicine
         </h1>
       </div>
       <div className="w-inherit py-5  md:py-10 px-4 text-primary">
         <div className="bg-custom-bg-cyan rounded-xl p-6 md:p-12 flex flex-col items-center">
-          <h2 className="font-bold text-xl my-2 md:my-4">Our Story</h2>
+          <h2 className="font-semibold text-xl my-2 md:my-4">Our Story</h2>
           <h3 className="text-sm">
             <h3 className="my-3">
               ll we wanted to do was create, multiply, and offer impact. What we
@@ -80,7 +80,9 @@ const page = () => {
       <div className="w-full py-1 md:py-10 px-4 text-primary">
         <div className="bg-[#F0F7FF] text-sm mt-2 md:mt-10 rounded-xl p-3 md:p-12">
           <div className="flex flex-col justify-center items-center">
-            <h2 className="font-bold text-lg md:text-xl">The Founding Team</h2>
+            <h2 className="font-semibold text-lg md:text-xl">
+              The Founding Team
+            </h2>
             <h3 className="md:w-[40%] text-center">
               To provide these services, Floglogpharma deploys the right
               technology, the right team, and at the right time always. The
@@ -89,7 +91,7 @@ const page = () => {
           </div>
           <div className="mt-6 md:mt-10 md:flex justify-center items-center md:space-x-12">
             <div className="my-6 md:my-0  flex flex-col items-center md:block text-center">
-              <div className="border w-[120px] md:w-[220px] h-[150px] md:h-[250px]">
+              <div className="border w-[120px] md:w-[220px] h-[120px] md:h-[210px]">
                 <Image
                   src="/images/Rectangle93.png"
                   width={100}
@@ -99,13 +101,13 @@ const page = () => {
                   className="w-full h-full"
                 />
               </div>
-              <h3 className="md:py-1 text-sm md:text-lg font-bold">
+              <h3 className="md:py-1 text-sm md:text-lg font-semibold">
                 Andrew Akhabue
               </h3>
               <h5 className="text-sm">Co-founder and CEO</h5>
             </div>
             <div className="my-6 md:my-0 flex flex-col items-center md:block text-center">
-              <div className="border w-[120px] md:w-[220px] h-[150px] md:h-[250px]">
+              <div className="border w-[120px] md:w-[220px]   h-[120px] md:h-[210px]">
                 <Image
                   src="/images/man.jpg"
                   width={100}
@@ -115,13 +117,13 @@ const page = () => {
                   className="w-full h-full"
                 />
               </div>
-              <h3 className="md:py-1 text-sm md:text-lg font-bold">
+              <h3 className="md:py-1 text-sm md:text-lg font-semibold">
                 Raphael Odoh
               </h3>
               <h5 className="text-sm">COO, Design and Development</h5>
             </div>
             <div className="my-6 md:my-0 flex flex-col items-center md:block text-center">
-              <div className="border w-[120px] md:w-[220px] h-[150px] md:h-[250px]">
+              <div className="border w-[120px] md:w-[220px]  h-[120px] md:h-[210px]">
                 <Image
                   src="/images/lady.jpg"
                   width={100}
@@ -131,7 +133,7 @@ const page = () => {
                   className="w-full h-full"
                 />
               </div>
-              <h3 className="md:py-1 text-sm md:text-lg font-bold">
+              <h3 className="md:py-1 text-sm md:text-lg font-semibold">
                 Joy Enwerem
               </h3>
               <h5 className="text-sm">COO, Finance and Strategy</h5>
@@ -144,8 +146,8 @@ const page = () => {
       <div className="w-full md:h-full text-primary">
         <div className="w-full flex flex-col items-center">
           <h5 className="py-4 text-sm font-bold">OUR STRATEGY</h5>
-          <h3 className="font-bold">Senior Citizens Care Program</h3>
-          <h3 className="font-bold">(SECCAP)</h3>
+          <h3 className="font-semibold">Senior Citizens Care Program</h3>
+          <h3 className="font-semibold">(SECCAP)</h3>
         </div>
         <div className="px-3 md:px-6">
           <div className="md:flex justify-center space-y-2 md:space-y-0 md:space-x-4 my-4 w-full md:h-[200px]">
@@ -250,7 +252,7 @@ const page = () => {
             “In Trust, Innovation and Excellence, we exist to provide unhindered
             access to healthcare for every African”           
           </h3>
-          <h5 className="text-sm font-bold">Dr. Andrew Akhabue, PharmD</h5>
+          <h5 className="text-sm font-semibold">Dr. Andrew Akhabue, PharmD</h5>
         </div>
       </div>
     </div>

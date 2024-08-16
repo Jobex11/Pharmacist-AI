@@ -29,7 +29,7 @@ const Page = () => {
       {!selectedBlog ? (
         <>
           <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4">
-            <h1 className="font-bold w-[60%] md:w-[30%] text-gray-50 text-xl md:text-2xl text-center">
+            <h1 className="font-semibold w-[60%] md:w-[30%] text-gray-50 text-xl md:text-2xl text-center">
               Blog
             </h1>
           </div>
@@ -53,7 +53,7 @@ const Page = () => {
                       className="h-full w-full object-cover rounded-lg md:rounded-none"
                     />
                   </div>
-                  <h3 className="font-bold text-base mt-2">{blog.title}</h3>
+                  <h3 className="font-semibold text-base mt-2">{blog.title}</h3>
                   <h5 className="text-gray-600 mt-1 text-base">
                     {truncateText(blog.info, 200)}
                   </h5>

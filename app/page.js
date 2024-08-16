@@ -46,7 +46,7 @@ export default function Home() {
 
       {/* second content */}
       <div className="bg-custom-bg-cyan text-[#0C4E86]   w-full py-10 flex flex-col items-center">
-        <h1 className=" w-[300px] md:w-[600px]  text-xl md:text-3xl font-bold text-center my-0 md:my-2">
+        <h1 className=" w-[300px] md:w-[600px]  text-xl md:text-3xl font-semibold text-center my-0 md:my-2">
           We guarantee you the CAPS of healthcare
         </h1>
         <div className="md:flex mt-3 md:mt-6  mx-7 md:mx-14 md:space-x-8">
@@ -54,7 +54,7 @@ export default function Home() {
             <div className="rounded-xl bg-white text-2xl  shadow-combined-custom inline-block p-3 my-2">
               C
             </div>
-            <h3 className="font-bold text-base">Convenience</h3>
+            <h3 className="font-semibold text-base">Convenience</h3>
             <h4 className="text-sm">
               We offer easy online appointment scheduling, telemedcine options
               for remote consultations, and a streamlined processes to reduce
@@ -65,7 +65,7 @@ export default function Home() {
             <div className="rounded-xl bg-white text-2xl  shadow-combined-custom inline-block p-3 my-2">
               A
             </div>
-            <h3 className="font-bold text-base">Accessibility</h3>
+            <h3 className="font-semibold text-base">Accessibility</h3>
             <h4 className="text-sm">
               We provide multi-channel support for consultations (chat and
               video) and we also accomodate diverse schedules.
@@ -75,7 +75,7 @@ export default function Home() {
             <div className="rounded-xl bg-white text-2xl  shadow-combined-custom inline-block p-3 my-2">
               P
             </div>
-            <h3 className="font-bold text-base">Privacy</h3>
+            <h3 className="font-semibold text-base">Privacy</h3>
             <h4 className="text-sm">
               We schedule consultation appointment promptly and minimize wait
               times. We deliver medications swiftly and promptly.
@@ -85,7 +85,7 @@ export default function Home() {
             <div className="rounded-xl bg-white text-2xl  shadow-combined-custom inline-block p-3 my-2">
               S
             </div>
-            <h3 className="font-bold text-base">Speed</h3>
+            <h3 className="font-semibold text-base">Speed</h3>
             <h4 className="text-sm">
               We schedule consultation appointments promptly and minimize wait
               times. We deliver medications swiftly and promptly
@@ -94,7 +94,7 @@ export default function Home() {
         </div>
         <hr className="border-[#0B3D7929] my-5 md:my-10 h-1 w-full"></hr>
         <div className="mx-2 px-5 md:px-0">
-          <h1 className="md:w-[600px]  text-xl md:text-3xl font-bold md:text-center">
+          <h1 className="md:w-[600px]  text-xl md:text-3xl font-semibold md:text-center">
             Maximize Your Medication Safety and Convenience with FloglogPharma.
           </h1>
           <h3 className="md:w-[600px]  text-base md:text-center my-3">
@@ -126,7 +126,7 @@ export default function Home() {
             />
           </div>
           <div className="md:w-[40%] px-0 py-2  md:py-0">
-            <h3 className="text-xl md:text-2xl font-bold md:font-normal">
+            <h3 className="text-xl md:text-2xl font-semibold md:font-normal">
               Consult a Pharmacist
             </h3>
             <h5 className="text-lg md:text-sm mt-1">
@@ -136,9 +136,9 @@ export default function Home() {
             </h5>
           </div>
         </div>
-        <div className="md:flex md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px ] my-2 md:my-6">
-          <div className="md:w-[40%] px-0 md:px-3">
-            <h3 className="text-xl font-bold md:font-normal md:text-2xl md:py-0 py-4">
+        <div className="flex flex-col md:flex md:flex-row md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px ] my-2 md:my-6">
+          <div className=" order-2 md:order-1 md:w-[40%] px-0 md:px-3">
+            <h3 className="text-xl font-semibold md:font-normal md:text-2xl md:py-0 py-4">
               Manage your medications use with ease
             </h3>
             <h5 className="text-lg md:text-sm mt-1">
@@ -148,7 +148,7 @@ export default function Home() {
               control of your health journey with simplicity and peace of mind.
             </h5>
           </div>
-          <div className="bg-custom-bg-2 md:w-[60%] md:h-full flex justify-end items-end rounded-xl">
+          <div className="order-1 md:order-2 bg-custom-bg-2 md:w-[60%] md:h-full flex justify-end items-end rounded-xl">
             <Image
               src="/Layer_1.png"
               height={100}
@@ -171,7 +171,7 @@ export default function Home() {
             />
           </div>
           <div className="md:w-[40%] px-0 my-2 md:my-0 md:px-3">
-            <h3 className="font-bold md:font-normal text-xl md:text-2xl">
+            <h3 className="font-semibold md:font-normal text-xl md:text-2xl">
               Order your prescriptions and OTCs
             </h3>
             <h5 className="text-lg md:text-sm mt-1">
@@ -184,7 +184,7 @@ export default function Home() {
       </div>
       {/* fourth content */}
       <div className="bg-[#F0F7FF] px-6 md:px-0 text-primary py-4 md:py-7 md:h-auto flex  flex-col justify-center items-center">
-        <h2 className="font-bold text-xl md:text-2xl md:w-[40%] text-start md:text-center">
+        <h2 className="font-semibold text-xl md:text-2xl md:w-[40%] text-start md:text-center">
           Take an advantage of the Senior Citizens Care Program (SECCAP)
         </h2>
         <h4 className=" md:px-0 text-lg md:text-sm my-2 md:my-6 md:w-[40%]">
@@ -260,7 +260,7 @@ export default function Home() {
       <div className="md:h-screen md:flex items-center">
         <div className="bg-gradient-to-b from-[#0C4E86] to-[#031320] my-2 md:my-16 flex flex-col text-white justify-center items-center w-full">
           <div className="px-3 my-2 md:my-6 text-center flex flex-col justify-center items-center">
-            <h3 className="font-bold text-xl md:text-2xl my-4">
+            <h3 className="font-semibold text-xl md:text-2xl my-4">
               Healthcare at Your fingertip
             </h3>
             <h6 className="text-sm md:text-base md:w-[50%]">
@@ -290,10 +290,10 @@ export default function Home() {
       </div>
       {/* sixth content faq */}
       <div className="bg-gradient-to-tr from-[#FEFFFF] to-[#A9DBFF] my-3 md:my-14 p-4 md:p-12 text-primary">
-        <h6 className="font-bold md:sm md:text-lg  py-2 md:py-4">
+        <h6 className="font-semibold md:xl md:text-2xl  py-2 md:py-4">
           Frequently asked questions
         </h6>
-        <h3 className="font-bold text-xl md:text-2xl py-2 md:py-4">
+        <h3 className="font-semibold text-sm md:text-lg py-2 md:py-4">
           Everything you need to know
         </h3>
         <h6 className=" text:sm md:text-lg py-2 md:py-4">
