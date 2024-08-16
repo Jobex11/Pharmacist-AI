@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className=" mt-10 p-2 md:p-10 w-full t text-xs">
+      <div className=" mt-10 p-2 md:p-10 w-full text-base md:text-xs">
         <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
         <div className="md:flex w-full">
           <div className="items-center p-2 md:p-0 md:items-start flex-1 flex flex-col space-y-4">
@@ -64,9 +64,11 @@ const Footer = () => {
               </div>
             </Link>
           </div>
-          <div className="flex-1 space-x-2 md:space-x-0 flex">
-            <div className="flex-1">
-              <h5 className="font-bold space-y-2  md:space-y-3">QUICK LINKS</h5>
+          <div className=" flex-1 px-0 md:space-x-0 md:flex">
+            <div className="my-3  md:my-0 w-1/3">
+              <h5 className=" font-semibold space-y-3  md:space-y-3">
+                QUICK LINKS
+              </h5>
               <ul className="space-y-1 md:space-y-2">
                 <Link href="/">
                   <li>Home</li>
@@ -79,36 +81,41 @@ const Footer = () => {
                 </Link>
               </ul>
             </div>
-            <div className="flex-1">
-              <h5 className="font-bold space-y-2  md:space-y-3">SOLUTIONS</h5>
-              <ul className="space-y-1 md:space-y-2">
-                <Link href="/">
-                  <li>Consult Pharmacist</li>
-                </Link>
-                <Link href="/">
-                  <li>Request Medication</li>
-                </Link>
-                <Link href="/">
-                  <li>SECCAP Program</li>
-                </Link>
-                <Link href="/">
-                  <li>Emergency Medicines</li>
-                </Link>
-              </ul>
-            </div>
-            <div className="flex-1">
-              <h5 className="font-bold space-y-2  md:space-y-3">LEGAL</h5>
-              <ul className="space-y-1 md:space-y-2">
-                <Link href="/privacypolicy">
-                  <li>Privacy Policy</li>
-                </Link>
-                <Link href="/privacypolicy">
-                  <li>Terms & Conditions</li>
-                </Link>
-                <Link href="/privacypolicy">
-                  <li>Acceptable Use</li>
-                </Link>
-              </ul>
+            <div className="flex w-full md:w-2/3 justify-between">
+              <div className="">
+                <h5 className="font-semibold space-y-2  md:space-y-3">
+                  SOLUTIONS
+                </h5>
+                <ul className="space-y-3 md:space-y-2 ">
+                  <Link href="/">
+                    <li>Consult Pharmacist</li>
+                  </Link>
+                  <Link href="/">
+                    <li>Request Medication</li>
+                  </Link>
+                  <Link href="/">
+                    <li>SECCAP Program</li>
+                  </Link>
+                  <Link href="/">
+                    <li>Emergency Medicines</li>
+                  </Link>
+                </ul>
+              </div>
+
+              <div className="">
+                <h5 className="font-semibold space-y-2  md:space-y-3">LEGAL</h5>
+                <ul className="space-y-1 md:space-y-2">
+                  <Link href="/privacypolicy">
+                    <li>Privacy Policy</li>
+                  </Link>
+                  <Link href="/privacypolicy">
+                    <li>Terms & Conditions</li>
+                  </Link>
+                  <Link href="/privacypolicy">
+                    <li>Acceptable Use</li>
+                  </Link>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
