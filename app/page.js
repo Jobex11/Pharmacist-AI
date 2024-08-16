@@ -340,7 +340,7 @@ export default function Home() {
             </div>
             <div className="my-2 md:my-0 flex-1 bg-custom-bg-5 p-3 md:p-7 rounded-xl ">
               <div className="w-[25px]  h-[25px]">
-                <Link href="https://www.instagram.com/flologpharma.co?igsh=YzBocGZsaHJxcjFy">
+                <Link href="https://www.instagram.com/flologpharma.co">
                   <Image
                     src="/instagram.svg"
                     height={100}
@@ -354,7 +354,7 @@ export default function Home() {
                 We’d love to stay connected with you. If the feeling’s mutual,
                 follow{" "}
                 <Link
-                  href="https://www.instagram.com/flologpharma.co?igsh=YzBocGZsaHJxcjFy"
+                  href="https://www.instagram.com/flologpharma.co"
                   className="text-gray-100 underline"
                 >
                   @flologpharma's.com
