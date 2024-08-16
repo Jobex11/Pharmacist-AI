@@ -3,18 +3,18 @@ import Link from "next/link";
 import Image from "next/image";
 const page = () => {
   return (
-    <div className="w-full overflow-hidden flex flex-col">
+    <div className="flex flex-col w-full overflow-hidden">
       <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4">
         <h1 className="font-semibold w-[60%] md:w-[30%] text-gray-50 text-xl md:text-3xl">
           Revolutionizing access to Pharmacists and Medicine
         </h1>
       </div>
-      <div className="w-inherit py-5  md:py-10 px-4 text-primary">
-        <div className="bg-custom-bg-cyan rounded-xl p-6 md:p-12 flex flex-col items-center">
-          <h2 className="font-semibold text-xl my-2 md:my-4">Our Story</h2>
+      <div className="px-4 py-5 w-inherit md:py-10 text-primary">
+        <div className="flex flex-col items-center p-6 bg-custom-bg-cyan rounded-xl md:p-12">
+          <h2 className="my-2 text-xl font-semibold md:my-4">Our Story</h2>
           <h3 className="text-sm">
             <h3 className="my-3">
-              ll we wanted to do was create, multiply, and offer impact. What we
+              All we wanted to do was create, multiply, and offer impact. What we
               ended up with is a company. When we first met in 2014 during our
               days at the University of Benin, Faculty of Pharmacy, it was not
               our intention to engage in any business venture. School politics
@@ -36,7 +36,7 @@ const page = () => {
             <h3 className="my-3">
               Floglogpharma provides you viable, efficient, and cost-effective
               healthcare solutions including:
-              <ul className="list-disc text-primary pl-5">
+              <ul className="pl-5 list-disc text-primary">
                 <li>
                   Prompt and convenient access to quality medications online and
                   offline
@@ -52,15 +52,15 @@ const page = () => {
         </div>
       </div>
       {/* third section */}
-      <div className="w-full md:flex justify-center  md:space-x-6 text-sm text-gray-600 my-2 md:my-6">
+      <div className="justify-center w-full my-2 text-sm text-gray-600 md:flex md:space-x-6 md:my-6">
         <div className="md:w-[20%] text-center md:text-start py-2 md:py-0">
           <hr />
-          <h2 className="text-base font-bold py-2">The Vision</h2>
-          <h3>Bridging Healthcare Gaps for a Healthier Africa</h3>
+          <h2 className="py-2 text-base font-bold">The Vision</h2>
+          <h3>Health care for every African. Bridging Healthcare Gaps for a Healthier Africa</h3>
         </div>
         <div className="md:w-[20%] text-center md:text-start py-2 md:py-0">
           <hr />
-          <h2 className="text-base font-bold py-2">Our Mission</h2>
+          <h2 className="py-2 text-base font-bold">Our Mission</h2>
           <h3>
             To provide Africans with prompt access to quality and
             affordable healthcare
@@ -68,7 +68,7 @@ const page = () => {
         </div>
         <div className="md:w-[20%] text-center md:text-start py-2 md:py-0">
           <hr />
-          <h2 className="text-base font-bold py-2">Our Core Values</h2>
+          <h2 className="py-2 text-base font-bold">Our Core Values</h2>
           <h3>
             Built on Trust, Fueled by Innovation, and Pursuing Excellence in All
             We Do
@@ -77,10 +77,10 @@ const page = () => {
       </div>
       {/* fourth section*/}
 
-      <div className="w-full py-1 md:py-10 px-4 text-primary">
+      <div className="w-full px-4 py-1 md:py-10 text-primary">
         <div className="bg-[#F0F7FF] text-sm mt-2 md:mt-10 rounded-xl p-3 md:p-12">
-          <div className="flex flex-col justify-center items-center">
-            <h2 className="font-semibold text-lg md:text-xl">
+          <div className="flex flex-col items-center justify-center">
+            <h2 className="text-lg font-semibold md:text-xl">
               The Founding Team
             </h2>
             <h3 className="md:w-[40%] text-center">
@@ -89,8 +89,8 @@ const page = () => {
               management team is led by three stellar Pharmacists
             </h3>
           </div>
-          <div className="mt-6 md:mt-10 md:flex justify-center items-center md:space-x-12">
-            <div className="my-6 md:my-0  flex flex-col items-center md:block text-center">
+          <div className="items-center justify-center mt-6 md:mt-10 md:flex md:space-x-12">
+            <div className="flex flex-col items-center my-6 text-center md:my-0 md:block">
               <div className="border w-[120px] md:w-[220px] h-[120px] md:h-[210px]">
                 <Image
                   src="/images/Rectangle93.png"
@@ -101,12 +101,12 @@ const page = () => {
                   className="w-full h-full"
                 />
               </div>
-              <h3 className="md:py-1 text-sm md:text-lg font-semibold">
+              <h3 className="text-sm font-semibold md:py-1 md:text-lg">
                 Andrew Akhabue
               </h3>
               <h5 className="text-sm">Co-founder and CEO</h5>
             </div>
-            <div className="my-6 md:my-0 flex flex-col items-center md:block text-center">
+            <div className="flex flex-col items-center my-6 text-center md:my-0 md:block">
               <div className="border w-[120px] md:w-[220px]   h-[120px] md:h-[210px]">
                 <Image
                   src="/images/man.jpg"
@@ -117,12 +117,12 @@ const page = () => {
                   className="w-full h-full"
                 />
               </div>
-              <h3 className="md:py-1 text-sm md:text-lg font-semibold">
+              <h3 className="text-sm font-semibold md:py-1 md:text-lg">
                 Raphael Odoh
               </h3>
               <h5 className="text-sm">COO, Design and Development</h5>
             </div>
-            <div className="my-6 md:my-0 flex flex-col items-center md:block text-center">
+            <div className="flex flex-col items-center my-6 text-center md:my-0 md:block">
               <div className="border w-[120px] md:w-[220px]  h-[120px] md:h-[210px]">
                 <Image
                   src="/images/lady.jpg"
@@ -133,7 +133,7 @@ const page = () => {
                   className="w-full h-full"
                 />
               </div>
-              <h3 className="md:py-1 text-sm md:text-lg font-semibold">
+              <h3 className="text-sm font-semibold md:py-1 md:text-lg">
                 Joy Enwerem
               </h3>
               <h5 className="text-sm">COO, Finance and Strategy</h5>
@@ -144,7 +144,7 @@ const page = () => {
 
       {/*fifth section*/}
       <div className="w-full md:h-full text-primary">
-        <div className="w-full flex flex-col items-center">
+        <div className="flex flex-col items-center w-full">
           <h5 className="py-4 text-sm font-bold">OUR STRATEGY</h5>
           <h3 className="font-semibold">Senior Citizens Care Program</h3>
           <h3 className="font-semibold">(SECCAP)</h3>
@@ -247,7 +247,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="text-gray-100 px-3  md:px-0 text-base bg-custom-bg-6 md:h-full w-full flex flex-col justify-center items-center py-5 md:py-10">
+        <div className="flex flex-col items-center justify-center w-full px-3 py-5 text-base text-gray-100 md:px-0 bg-custom-bg-6 md:h-full md:py-10">
           <h3 className="md:w-[40%]">
             “In Trust, Innovation and Excellence, we exist to provide unhindered
             access to healthcare for every African”           
