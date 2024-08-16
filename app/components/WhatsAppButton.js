@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 export default function WhatsAppButton() {
   return (
-    <div className="md:hidden text-base fixed bottom-[25%] right-5 text-primary text-center flex-col items-center  justify-center">
+    <div className="z-50 md:hidden text-base fixed bottom-[25%] right-5 text-primary text-center flex-col items-center  justify-center">
       <div>chat with us</div>
 
       <div className="flex justify-center">
@@ -12,7 +12,7 @@ export default function WhatsAppButton() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaWhatsapp className="text-primary text-5xl" />
+          <FaWhatsapp className=" text-6xl bg-primary text-white p-2 rounded-full shadow-lg" />
         </Link>
       </div>
     </div>
