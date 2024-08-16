@@ -143,7 +143,7 @@ export default function Home() {
             </h3>
             <h5 className="text-lg md:text-sm mt-1">
               Keeping track of your medications should'nt be complicated. Our
-              app streamliness the process, allowing you to effortlessly
+              app streamlines the process, allowing you to effortlessly
               organize, schedule, and monitor your medication intake.Take
               control of your health journey with simplicity and peace of mind.
             </h5>
