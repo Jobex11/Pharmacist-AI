@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="w-full md:flex flex-col justify-center items-center">
         <div className="px-3 md:flex justify-center items-center md:w-[70%]  md:gap-5 my-4 md:my-12 text-primary text-sm">
           <div className="md:flex-1 py-1 md:py-0">
-            <div className="font-bold text-primary text-sm">
+            <div className="font-semibold text-primary text-sm">
               Subscribe to our newsletter
             </div>
             <h6>
@@ -17,7 +17,7 @@ const Footer = () => {
             </h6>
           </div>
           <div className="flex-1">
-            <div className="w-full space-x-2 mb-2">
+            <div className="w-full space-y-2 md:space-y-0 space-x-2 mb-2">
               <input
                 type="text"
                 placeholder="youremail.com"
