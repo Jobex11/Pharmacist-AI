@@ -85,10 +85,10 @@ const Navbar = () => {
           <Link href="/" className="">
             <div className="relative bottom-6">
               <Image
-                width={120}
-                height={120}
+                width={180}
+                height={180}
                 unoptimized={true}
-                src="/Logo.png"
+                src="/images/Logo.png"
                 alt="Logo"
               />
             </div>
