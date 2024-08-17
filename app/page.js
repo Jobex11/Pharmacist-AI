@@ -136,6 +136,28 @@ export default function Home() {
             </h5>
           </div>
         </div>
+        <div className="md:flex md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px] my-3 md:my-6">
+          <div className="bg-custom-bg-3 md:w-[60%] md:h-full flex justify-center items-end rounded-xl">
+            <Image
+              src="/Layer_2.png"
+              height={100}
+              width={100}
+              quality={100}
+              unoptimized={true}
+              className="relative z-10 h-[80%] w-[80%]"
+            />
+          </div>
+          <div className="md:w-[40%] px-0 my-2 md:my-0 md:px-3">
+            <h3 className="text-xl font-semibold md:font-normal md:text-2xl">
+              Order your prescriptions and OTCs
+            </h3>
+            <h5 className="mt-1 text-lg md:text-sm">
+              Say goodbye to long queses! With our app you can effortlessly
+              request over-the-counter medications from the comfort of your own
+              home. Browse, select, and order with just a few taps.
+            </h5>
+          </div>
+        </div>
         <div className="flex flex-col md:flex md:flex-row md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px ] my-2 md:my-6">
           <div className=" order-2 md:order-1 md:w-[40%] px-0 md:px-3">
             <h3 className="py-4 text-xl font-semibold md:font-normal md:text-2xl md:py-0">
@@ -157,28 +179,6 @@ export default function Home() {
               unoptimized={true}
               className="relative z-10 h-[80%] w-[80%]"
             />
-          </div>
-        </div>
-        <div className="md:flex md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px] my-3 md:my-6">
-          <div className="bg-custom-bg-3 md:w-[60%] md:h-full flex justify-center items-end rounded-xl">
-            <Image
-              src="/Layer_2.png"
-              height={100}
-              width={100}
-              quality={100}
-              unoptimized={true}
-              className="relative z-10 h-[80%] w-[80%]"
-            />
-          </div>
-          <div className="md:w-[40%] px-0 my-2 md:my-0 md:px-3">
-            <h3 className="text-xl font-semibold md:font-normal md:text-2xl">
-              Order your prescriptions and OTCs
-            </h3>
-            <h5 className="mt-1 text-lg md:text-sm">
-              Say goodbye to long queses! With our app you can effortlessly
-              request over-the-counter medications from the comfort of your own
-              home. Browse, select, and order with just a few taps.
-            </h5>
           </div>
         </div>
       </div>

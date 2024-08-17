@@ -3,15 +3,15 @@ import React from "react";
 import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
 const page = () => {
   return (
-    <div className="w-full overflow-hidden flex flex-col">
+    <div className="flex flex-col w-full overflow-hidden">
       <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4">
         <h1 className="font-semibold w-[60%] md:w-[30%] text-gray-50 text-xl md:text-2xl text-center">
           Contact
         </h1>
       </div>
-      <div className="my-5  md:my-16 px-5 md:px-0  md:mx-20 text-primary">
+      <div className="px-5 my-5 md:my-16 md:px-0 md:mx-20 text-primary">
         <div>
-          <div className=" w-full flex justify-between items-stretch">
+          <div className="flex items-stretch justify-between w-full ">
             <div className="">
               <div className="my-3">
                 <h4 className="text-xl font-semibold">Get in touch with us.</h4>
@@ -25,7 +25,7 @@ const page = () => {
                 <h5>we’ll be in touch shortly.</h5>
               </div>
             </div>
-            <div className="justify-around flex flex-col text-xl">
+            <div className="flex flex-col justify-around text-xl">
               <Link href="/">
                 <div>
                   <FaWhatsapp />
@@ -47,13 +47,13 @@ const page = () => {
 
         {/* use this form to get request from clients */}
         <form>
-          <div className="md:flex w-full md:space-x-6 pt-10 text-sm">
+          <div className="w-full pt-10 text-sm md:flex md:space-x-6">
             <div className="flex border-b-2">
-              <label className=" py-2">Your Name</label>
+              <label className="py-2 ">Your Name</label>
               <input
                 type="text"
                 placeholder="enter your name"
-                className=" text-center"
+                className="text-center "
               />
             </div>
             <div className="flex border-b-2">
@@ -61,26 +61,26 @@ const page = () => {
               <input
                 type="email"
                 placeholder="enter email address"
-                className=" text-center"
+                className="text-center "
               />
             </div>
             <div className="flex border-b-2">
-              <label className=" py-2">Phone Number(optional)</label>
+              <label className="py-2 ">Phone Number(optional)</label>
               <input
                 type="text"
                 placeholder="enter phone number"
-                className=" text-center"
+                className="text-center "
               />
             </div>
           </div>
 
           <div className="py-8">
-            <div className="flex  border-b-2">
-              <label className=" py-2 text-lg">Message</label>
+            <div className="flex border-b-2">
+              <label className="py-2 text-lg ">Message</label>
               <input
                 type="text"
                 placeholder="write your messages"
-                className=" text-center"
+                className="text-center "
               />
             </div>
           </div>
@@ -91,8 +91,8 @@ const page = () => {
           </div>
         </form>
       </div>
-      <hr className="mx-5 md:mx-20 my-5 md:my-10" />
-      <div className="md:flex mx-5 md:mx-20 md:space-x-10 my-2 md:my-10 text-primary">
+      <hr className="mx-5 my-5 md:mx-20 md:my-10" />
+      <div className="mx-5 my-2 md:flex md:mx-20 md:space-x-10 md:my-10 text-primary">
         <div className="flex-[1_1_0%]  text-xl font-semibold">
           <h2>
             Our top priority is delivering outstanding service and support
@@ -100,28 +100,28 @@ const page = () => {
         </div>
         <div className="flex-[3_3_0%] flex justify-between md:justify-around">
           <div className="space-y-3 w-[150px]">
-            <h5 className=" font-semibold text-sm ">Email Address</h5>
+            <h5 className="text-sm font-semibold ">Email Address</h5>
             <div className="w-6 h-[2px] bg-[#0C4E86]"></div>
-            <div className="bg bg-primary w-4"></div>
-            <h4 className="font-semibold text-xs">info@FloglogPharma.co</h4>
-            <h4 className="text-xs py-1">
+            <div className="w-4 bg bg-primary"></div>
+            <h4 className="text-xs font-semibold">info@FloglogPharma.co</h4>
+            <h4 className="py-1 text-xs">
               <h4>Assistance hours:</h4>
               <h4>Monday - Friday 8 am to 6 pm WAT</h4>
             </h4>
           </div>
           <div className="space-y-3 w-[150px]">
-            <h5 className=" font-semibold text-sm ">Number</h5>
+            <h5 className="text-sm font-semibold ">Number</h5>
             <div className="w-6 h-[2px] bg-[#0C4E86]"></div>
-            <div className="bg bg-primary w-4"></div>
-            <h4 className="font-semibold text-xs">+234 703749 5356</h4>
-            <h4 className="text-xs py-1">
+            <div className="w-4 bg bg-primary"></div>
+            <h4 className="text-xs font-semibold">+234 905564 5316</h4>
+            <h4 className="py-1 text-xs">
               <h4>Assistance hours:</h4>
               <h4>Monday - Friday 8 am to 6 pm WAT</h4>
             </h4>
           </div>
         </div>
       </div>
-      <hr className="mx-5 md:mx-20 my-4 md:my-10" />
+      <hr className="mx-5 my-4 md:mx-20 md:my-10" />
     </div>
   );
 };
