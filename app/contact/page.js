@@ -6,7 +6,7 @@ const page = () => {
     <div className="flex flex-col w-full overflow-hidden">
       <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4">
         <h1 className="font-semibold w-[60%] md:w-[30%] text-gray-50 text-xl md:text-2xl text-center">
-          Contact
+          Contact Us
         </h1>
       </div>
       <div className="px-5 my-5 md:my-16 md:px-0 md:mx-20 text-primary">
