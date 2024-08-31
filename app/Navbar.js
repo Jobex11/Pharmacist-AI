@@ -14,6 +14,7 @@ const Navbar = () => {
     { href: "/about", label: "About Us" },
     { href: "/blog", label: "Blog" },
     { href: "/contact", label: "Contact Us" },
+    // { href: "/privacy-policy", label: "Privacy Poilcy" },
   ];
 
   const toggleMenu = () => {
@@ -21,8 +22,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="flex absolute overflow-hidden top-0 left-0 justify-between items-center py-6 px-7 w-full z-100">
-      <div className="flex space-x-4 justify-center items-center">
+    <nav className="absolute top-0 left-0 flex items-center justify-between w-full py-6 overflow-hidden navbar px-7 z-100">
+      <div className="flex items-center justify-center space-x-4">
         <Link href="/">
           <div className="mr-6 ">
             <Image
@@ -35,7 +36,7 @@ const Navbar = () => {
           </div>
         </Link>
 
-        <ul className="hidden md:flex space-x-6 text-gray-300 text-basic">
+        <ul className="hidden space-x-6 text-gray-300 md:flex md:ml-[5rem] text-basic">
           {links.map((link) => (
             <li
               key={link.href}
@@ -55,13 +56,13 @@ const Navbar = () => {
       </div>
 
       <div
-        className="text-gray-200 cursor-pointer text-3xl md:hidden"
+        className="text-3xl text-gray-200 cursor-pointer md:hidden"
         onClick={toggleMenu}
       >
         <FaAlignRight />
       </div>
 
-      <div className="hidden md:flex bg-gray-300 rounded-lg text-sm cursor-pointer justify-center items-center gap-1 p-2 text-gray-700 hover:bg-gray-200 hover:transition-all">
+      <div className="px-[1rem] py-[.5rem] items-center justify-center hidden gap-1 p-2 text-sm text-gray-700 bg-gray-300 rounded-lg cursor-pointer md:flex hover:bg-gray-200 hover:transition-all">
         Download App
         <FaArrowRight className="text-gray-500" />
       </div>
@@ -72,16 +73,16 @@ const Navbar = () => {
           isMenuOpen ? "translate-y-0" : "-translate-y-full"
         } z-20 flex flex-col items-center justify-start p-8`}
       >
-        <div className="w-full flex justify-end mb-6">
+        <div className="flex justify-end w-full mb-6">
           <button
             onClick={toggleMenu}
-            className="absolute top-0 py-7 px-5 text-gray-200 text-3xl"
+            className="absolute top-0 px-5 text-3xl text-gray-200 py-7"
           >
             <FaTimes />
           </button>
         </div>
 
-        <ul className="flex flex-col absolute top-[20%]  items-start space-y-6 text-gray-300 text-3xl">
+        <ul className="flex flex-col absolute top-[20%]  items-start space-y-6 text-gray-300 text-3xl text-[24px]">
           <Link href="/" className="">
             <div className="relative bottom-6">
               <Image

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination'; */
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -20,4 +24,130 @@ body {
     transparent 20px
   );
   pointer-events: none; /* Ensure the stripes don't interfere with any clicks */
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .text-header {
+    font-size: 38px;
+    line-height: 64px;
+    font-weight: 500;
+    margin-top: 5rem;
+    margin-bottom: .5rem;
+}
+
+.text-desc {
+  font-weight: 300;
+  line-height: 32px;
+  font-size: 18px;
+  width: 100%;
+}
+
+  /* .navbar{
+    padding: 2.5rem 8rem;
+  } */
+
+  .img-container{
+    margin-top: 2rem;
+  }
+
+  .img-right{
+    margin-left: -3rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .text-header{
+    width: 67%;
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: 600;
+    margin-top: 5rem;
+    margin-bottom: .5rem;
+}
+
+  .text-desc {
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 26px;
+    width: 56%;
+  }
+
+  .navbar{
+    padding: 2.5rem 8rem;
+  }
+
+  .img-container{
+    margin-top: 2rem;
+  }
+
+  .img-right{
+    margin-left: -7rem;
+  }
+
+}
+
+.guarantee-section .flex-1 .rounded-xl{
+  text-align: center;
+  height: 56px;
+  width: 56px;
+}
+
+.faqs-section{
+  background: linear-gradient(135.48deg, #FEFFFF 9.48%, #A9DBFF 90.52%);
+}
+
+
+.bg-whatsapp{
+background: linear-gradient(0deg, rgba(5, 1, 13, 0.6) 0%, rgba(5, 1, 13, 0.6) 100%), linear-gradient(101.54deg, #25D366 12.48%, #027C30 40.34%, #003012 87.81%);
+
+}
+
+.bg-instagram{
+background: linear-gradient(0deg, rgba(5, 1, 13, 0.6) 0%, rgba(5, 1, 13, 0.6) 100%), linear-gradient(101.54deg, #FF7061 12.48%, #FF5280 25.41%, #A033FF 50.63%);
+
+}
+
+.contact-form{
+  color: #6B7589;
+}
+
+.contact-form label{
+  padding-bottom: 1rem;
+}
+
+.contact-form input{
+    text-align: left;
+    border: none;
+    outline: none;
+    color: #000;
+}
+
+.contact-form .margin-none{
+  margin-left: 0 !important;
+}
+
+.font-22{
+  font-size: 22px !important;
+}
+
+.font-18{
+  font-size: 18px !important;
+}
+
+/* .bg-stripe::before{
+  background: url("/public/CURVES.svg");
+  z-index: 999;
+  content: "hwehwdhhgdhdshjsd";
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+} */
+
+.bg-stripe{
+  color: red;
+  z-index: 999;
 }

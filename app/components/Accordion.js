@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { FaPlus, FaMinus } from "react-icons/fa";
+import { RxCaretDown, RxCaretUp } from "react-icons/rx";
 
 const Accordion = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,12 +12,12 @@ const Accordion = ({ question, answer }) => {
   return (
     <div>
       <div
-        className="flex flex-col justify-between items-center cursor-pointer text-sm py-2"
+        className="flex flex-col items-center justify-between py-2 text-sm cursor-pointer"
         onClick={toggleAccordion}
       >
-        <div className="flex w-full justify-between items-center">
-          <div className="font-semibold">{question}</div>
-          <div>{isOpen ? <FaMinus /> : <FaPlus />}</div>
+        <div className="flex items-center justify-between w-full">
+          <div className="text-[18px]">{question}</div>
+          <div>{isOpen ? <RxCaretUp size={24} /> : <RxCaretDown size={24} />}</div>
         </div>
       </div>
 
@@ -51,10 +51,10 @@ const Accordion = ({ question, answer }) => {
   return (
     <div>
       <div
-        className="flex  flex-col justify-between items-center cursor-pointer text-sm py-2"
+        className="flex flex-col items-center justify-between py-2 text-sm cursor-pointer"
         onClick={toggleAccordion}
       >
-        <div className="flex w-full justify-between items-center">
+        <div className="flex items-center justify-between w-full">
           <div className="font-semibold">{question}</div>
           <div>{isOpen ? <FaMinus /> : <FaPlus />}</div>
         </div>

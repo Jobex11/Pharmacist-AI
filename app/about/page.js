@@ -4,16 +4,17 @@ import Image from "next/image";
 const page = () => {
   return (
     <div className="flex flex-col w-full overflow-hidden">
-      <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4">
-        <h1 className="font-semibold w-[60%] md:w-[30%] text-gray-50 text-xl md:text-3xl">
+      <div className="flex items-center justify-center w-full p-4 bg-custom-bg-1 md:pb-[8rem] h-[25rem]">
+      {/* <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4"> */}
+        <h1 className="font-semibold w-[60%] md:text-center md:text-[50px] md:font-[600] md:leading-[64px] md:w-[50%] md:mt-[10rem] text-gray-50 text-xl md:text-3xl text-[30px] leading-[32px]">
           Revolutionizing access to Pharmacists and Medicine
         </h1>
       </div>
       <div className="px-4 py-5 w-inherit md:py-10 text-primary">
-        <div className="flex flex-col items-center p-6 bg-custom-bg-cyan rounded-xl md:p-12">
-          <h2 className="my-2 text-xl font-semibold md:my-4">Our Story</h2>
+        <div className="flex flex-col items-center p-6 bg-custom-bg-cyan rounded-xl md:p-12 md:px-[7rem] md:mt-[5rem]">
+          <h2 className="my-2 text-xl font-semibold md:my-4 md:text-[36px] md:font-[600] md:mb-[2.5rem]">Our Story</h2>
           <h3 className="text-sm">
-            <h3 className="my-3">
+            <h3 className="my-3 md:text-[19px] md:leading-[29px]">
               All we wanted to do was create, multiply, and offer impact. What we
               ended up with is a company. When we first met in 2014 during our
               days at the University of Benin, Faculty of Pharmacy, it was not
@@ -52,24 +53,24 @@ const page = () => {
         </div>
       </div>
       {/* third section */}
-      <div className="justify-center w-full my-2 text-sm text-gray-600 md:flex md:space-x-6 md:my-6">
-        <div className="md:w-[20%] text-center md:text-start py-2 md:py-0">
+      <div className="justify-center w-full my-2 text-sm text-gray-600 md:flex md:space-x-6 md:my-6 md:ml-[8rem]">
+        <div className="py-2 text-center md:text-start md:py-0">
           <hr />
           <h2 className="py-2 text-base font-bold">The Vision</h2>
-          <h3>Health care for every African. Bridging Healthcare Gaps for a Healthier Africa</h3>
+          <h3 className="md:w-[50%]">Health care for every African. Bridging Healthcare Gaps for a Healthier Africa</h3>
         </div>
-        <div className="md:w-[20%] text-center md:text-start py-2 md:py-0">
+        <div className="py-2 text-center md:text-start md:py-0">
           <hr />
           <h2 className="py-2 text-base font-bold">Our Mission</h2>
-          <h3>
+          <h3 className="md:w-[50%]">
             To provide Africans with prompt access to quality and
             affordable healthcare
           </h3>
         </div>
-        <div className="md:w-[20%] text-center md:text-start py-2 md:py-0">
+        <div className="py-2 text-center md:text-start md:py-0">
           <hr />
           <h2 className="py-2 text-base font-bold">Our Core Values</h2>
-          <h3>
+          <h3 className="md:w-[50%]">
             Built on Trust, Fueled by Innovation, and Pursuing Excellence in All
             We Do
           </h3>
@@ -78,9 +79,9 @@ const page = () => {
       {/* fourth section*/}
 
       <div className="w-full px-4 py-1 md:py-10 text-primary">
-        <div className="bg-[#F0F7FF] text-sm mt-2 md:mt-10 rounded-xl p-3 md:p-12">
+        <div className="bg-[#F0F7FF] text-sm mt-2 md:mt-10 rounded-xl p-3 md:p-12 md:px-[8rem]">
           <div className="flex flex-col items-center justify-center">
-            <h2 className="text-lg font-semibold md:text-xl">
+            <h2 className="text-lg font-semibold md:text-xl pb-[0.5rem]">
               The Founding Team
             </h2>
             <h3 className="md:w-[40%] text-center">
@@ -90,53 +91,54 @@ const page = () => {
             </h3>
           </div>
           <div className="items-center justify-center mt-6 md:mt-10 md:flex md:space-x-12">
-            <div className="flex flex-col items-center my-6 text-center md:my-0 md:block">
-              <div className="border w-[120px] md:w-[220px] h-[120px] md:h-[210px]">
+            <div className="flex flex-col items-center my-10 text-center md:my-0 md:block md:w-[100%]">
+            <div className="border w-[350px] md:w-[100%] h-[300px] md:h-[100%]">
+              {/* <div className="border w-[120px] md:w-[220px] h-[120px] md:h-[210px]"> */}
                 <Image
                   src="/images/Rectangle93.png"
                   width={100}
                   height={100}
                   quality={100}
                   unoptimized={true}
-                  className="w-full h-full"
+                  className="w-full h-full md:h-[400px]"
                 />
               </div>
-              <h3 className="text-sm font-semibold md:py-1 md:text-lg">
-                Andrew Akhabue
+              <h3 className="text-sm font-semibold md:py-1 md:text-lg md:text-[30px] md:pt-[2rem] pt-[1rem] text-[20px]">
+                Dr. Andrew Akhabue, PharmD
               </h3>
-              <h5 className="text-sm">Co-founder and CEO</h5>
+              <h5 className="text-sm md:text-[19px] md:text-center md:pt-[0.5rem] pt-[5px] text-[16px]">Co-founder and CEO</h5>
             </div>
-            <div className="flex flex-col items-center my-6 text-center md:my-0 md:block">
-              <div className="border w-[120px] md:w-[220px]   h-[120px] md:h-[210px]">
+            <div className="flex flex-col items-center my-10 text-center md:my-0 md:block md:w-[100%]">
+            <div className="border w-[350px] md:w-[100%] h-[300px] md:h-[100%]">
                 <Image
                   src="/images/man.jpg"
                   width={100}
                   height={100}
                   quality={100}
                   unoptimized={true}
-                  className="w-full h-full"
+                  className="w-full h-full md:h-[400px]"
                 />
               </div>
-              <h3 className="text-sm font-semibold md:py-1 md:text-lg">
-                Raphael Odoh
+              <h3 className="text-sm font-semibold md:py-1 md:text-lg md:text-[30px] md:pt-[2rem] pt-[1rem] text-[20px]">
+                Dr. Raphael Odoh, PharmD
               </h3>
-              <h5 className="text-sm">COO, Design and Development</h5>
+              <h5 className="text-sm md:text-[19px] md:text-center md:pt-[0.5rem] pt-[5px] text-[16px]">COO, Design and Development</h5>
             </div>
-            <div className="flex flex-col items-center my-6 text-center md:my-0 md:block">
-              <div className="border w-[120px] md:w-[220px]  h-[120px] md:h-[210px]">
+            <div className="flex flex-col items-center my-10 text-center md:my-0 md:block md:w-[100%]">
+            <div className="border w-[350px] md:w-[100%] h-[300px] md:h-[100%]">
                 <Image
                   src="/images/lady.jpg"
                   width={100}
                   height={100}
                   quality={100}
                   unoptimized={true}
-                  className="w-full h-full"
+                  className="w-full h-full  md:h-[400px]"
                 />
               </div>
-              <h3 className="text-sm font-semibold md:py-1 md:text-lg">
-                Joy Enwerem
+              <h3 className="text-sm font-semibold md:py-1 md:text-lg md:text-[30px] md:pt-[2rem] pt-[1rem] text-[20px]">
+                Dr. Joy Enwerem, PharmD
               </h3>
-              <h5 className="text-sm">COO, Finance and Strategy</h5>
+              <h5 className="text-sm md:text-[19px] md:text-center md:pt-[0.5rem] pt-[5px] text-[16px]">COO, Finance and Strategy</h5>
             </div>
           </div>
         </div>
@@ -145,9 +147,9 @@ const page = () => {
       {/*fifth section*/}
       <div className="w-full md:h-full text-primary">
         <div className="flex flex-col items-center w-full">
-          <h5 className="py-4 text-sm font-bold">OUR STRATEGY</h5>
-          <h3 className="font-semibold">Senior Citizens Care Program</h3>
-          <h3 className="font-semibold">(SECCAP)</h3>
+          <h5 className="py-4 text-sm font-bold md:font-[700] md:text-[14px] text-[13px]">OUR OUTREACHES</h5>
+          <h3 className="font-semibold md:text-[36px] text-[20px]">Senior Citizens Care Program</h3>
+          <h3 className="font-semibold md:text-[36px] text-[20px]">(SECCAP)</h3>
         </div>
         <div className="px-3 md:px-6">
           <div className="md:flex justify-center space-y-2 md:space-y-0 md:space-x-4 my-4 w-full md:h-[200px]">
@@ -247,12 +249,12 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-center w-full px-3 py-5 text-base text-gray-100 md:px-0 bg-custom-bg-6 md:h-full md:py-10">
+        <div className="flex flex-col font-[600] items-center justify-center w-full px-3 py-5 text-base text-gray-100 md:px-0 bg-custom-bg-6 md:h-full md:py-10 text-center md:text-[21px] md:font-[700] md:leading-[33px]">
           <h3 className="md:w-[40%]">
             “In Trust, Innovation and Excellence, we exist to provide unhindered
-            access to healthcare for every African”           
+            access to healthcare for every African”
           </h3>
-          <h5 className="text-sm font-semibold">Dr. Andrew Akhabue, PharmD</h5>
+          <h5 className="text-sm md:font-[400] md:mt-[1rem] font-[300]">Dr. Andrew Akhabue, PharmD</h5>
         </div>
       </div>
     </div>

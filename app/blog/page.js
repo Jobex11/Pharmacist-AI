@@ -25,24 +25,24 @@ const Page = () => {
   };
 
   return (
-    <div className="w-full overflow-hidden flex flex-col">
+    <div className="flex flex-col w-full overflow-hidden">
       {!selectedBlog ? (
         <>
-          <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4">
-            <h1 className="font-semibold w-[60%] md:w-[30%] text-gray-50 text-xl md:text-2xl text-center">
+          <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4 md:h-[30rem]">
+            <h1 className="w-[60%] md:w-[30%] text-gray-50  text-center text-[50px] font-[600]">
               Blog
             </h1>
           </div>
 
-          <div className="container mx-auto py-8">
-            <div className="md:grid grid-cols-3 gap-8">
+          <div className="container py-8 mx-auto">
+            <div className="grid-cols-3 gap-8 md:grid">
               {blogs.map((blog, index) => (
                 <div
                   key={index}
-                  className="bg-white p-4 shadow-md cursor-pointer"
+                  className="p-4 bg-white shadow-md cursor-pointer"
                   onClick={() => handleBlogClick(blog)}
                 >
-                  <div className="w-full bg-gray-300 h-[250px] rounded-lg md:rounded-none">
+                  <div className="w-full bg-gray-300 h-[250px] rounded-[7px]">
                     <Image
                       src={blog.image}
                       alt={blog.title}
@@ -50,14 +50,14 @@ const Page = () => {
                       width={100}
                       quality={30}
                       unoptimized={true}
-                      className="h-full w-full object-cover rounded-lg md:rounded-none"
+                      className="object-cover w-full h-full rounded-[7px]"
                     />
                   </div>
-                  <h3 className="font-semibold text-base mt-2">{blog.title}</h3>
-                  <h5 className="text-gray-600 mt-1 text-base">
+                  <h3 className="mt-2 text-base font-semibold text-[#0C4E86] md:font-[500] md:text-[20px] md:leading-[32px] md:mt-[1.5rem]">{blog.title}</h3>
+                  <h5 className="mt-1 text-base text-[#0C4E86] font-[300] md:leading-[26px]">
                     {truncateText(blog.info, 200)}
                   </h5>
-                  <div className="flex justify-between items-center text-xs mt-1">
+                  <div className="flex items-center justify-between mt-1 text-xs">
                     <h6 className="text-gray-500">{blog.postDate}</h6>
                     <h6 className="text-gray-500">{blog.postTime}</h6>
                   </div>
@@ -66,7 +66,7 @@ const Page = () => {
             </div>
 
             <div className="flex justify-center mt-8">
-              <button className="bg-primary text-white py-2 px-4 rounded-lg flex justify-center items-center gap-2">
+              <button className="flex items-center justify-center gap-2 px-4 py-2 text-white rounded-lg bg-[#0C4E86]">
                 Next <FaArrowRight />
               </button>
             </div>
