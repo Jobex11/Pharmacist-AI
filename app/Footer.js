@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="flex-col items-center justify-center w-full md:flex">
         <div className="text-[#3F4654] px-3 md:flex md:mx-auto justify-center  md:w-[70%]  md:gap-5 my-4 md:my-12 text-sm">
           <div className="flex flex-col py-1 md:flex-1 md:py-0">
-            <div className="text-[16px] font-semibold md:text-[18px] pb-[.5rem]">
+            <div className="text-[16px] font-semibold md:text-[18px] pb-[.5rem] leading-[30px]">
               Subscribe to our newsletter
             </div>
             <h6>
@@ -22,12 +22,12 @@ const Footer = () => {
                 type="text"
                 placeholder="youremailhere@email.com"
                 className="md:w-[60%] p-2 bg-gray-300 rounded-lg"
-              ></input>{" "}
+              ></input>
               <button className="p-2 px-7 text-sm text-gray-200 bg-[#3F4654] rounded-lg w-inherit">
                 Subscribe
               </button>
             </div>
-            <h6 className="text-xs">
+            <h6 className="leading-[30px]">
               By providing your email address, you consent to receive Flolog's
               monthly newsletter, which includes updates, insights, and industry
               news. Please review our Privacy Policy for details on how we
@@ -66,7 +66,7 @@ const Footer = () => {
               </div>
             </Link>
           </div>
-          <div className="text-[#3F4654] flex-1 px-0  md:space-x-0 md:flex">
+          <div className="text-[#3F4654] flex-1 px-0  md:space-x-0 md:flex text-[15px]">
             <div className="flex flex-col w-1/3 gap-2 my-3 md:my-0 mb-[2rem]">
               <h5 className="space-y-3 font-semibold md:space-y-3">
                 QUICK LINKS
@@ -107,13 +107,13 @@ const Footer = () => {
               <div className="flex flex-col gap-2">
                 <h5 className="space-y-2 font-semibold md:space-y-3">LEGAL</h5>
                 <ul className="flex flex-col space-y-1 md:space-y-2">
-                  <Link href="/privacypolicy">
+                  <Link href="/privacy-policy">
                     <li>Privacy Policy</li>
                   </Link>
-                  <Link href="/privacypolicy">
+                  <Link href="/privacy-policy">
                     <li>Terms & Conditions</li>
                   </Link>
-                  <Link href="/privacypolicy">
+                  <Link href="/privacy-policy">
                     <li>Acceptable Use</li>
                   </Link>
                 </ul>
@@ -127,7 +127,7 @@ const Footer = () => {
         <div className="flex-1 text-[14px] ">
           Copyright © 2024 Florix Healthcare Ltd. All rights reserved.
         </div>
-        <div className="text-[19px] flex items-center justify-center space-x-2 text-xl font-bold md:text-2xl">
+        <div className="text-[19px] flex items-center justify-center space-x-2 text-xl font-bold md:text-2xl mt-[.5rem]">
           <Link href="https://wa.me/2349055645316" passHref>
             <FaWhatsapp />
           </Link>

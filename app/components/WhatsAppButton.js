@@ -4,7 +4,7 @@ export default function WhatsAppButton() {
   return (
     <div className="z-50 text-base fixed bottom-[10%] right-4 font-bold text-primary text-center flex-col items-center  justify-center">
     {/* <div className="z-50 md:hidden text-base fixed bottom-[10%] right-4 font-bold text-primary text-center flex-col items-center  justify-center"> */}
-      <div>chat with us</div>
+      <div>Chat with Us</div>
 
       <div className="flex justify-center">
         <Link

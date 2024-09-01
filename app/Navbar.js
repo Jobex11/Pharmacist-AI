@@ -62,7 +62,7 @@ const Navbar = () => {
         <FaAlignRight />
       </div>
 
-      <div className="px-[1rem] py-[.5rem] items-center justify-center hidden gap-1 p-2 text-sm text-gray-700 bg-gray-300 rounded-lg cursor-pointer md:flex hover:bg-gray-200 hover:transition-all">
+      <div className="px-[1rem] py-[.5rem] items-center justify-center hidden gap-1 p-2 text-sm text-gray-700 bg-white rounded-lg cursor-pointer md:flex hover:bg-gray-200 hover:transition-all">
         Download App
         <FaArrowRight className="text-gray-500" />
       </div>

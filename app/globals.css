@@ -2,10 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import 'swiper/css';
-@import 'swiper/css/navigation';
-@import 'swiper/css/pagination'; */
+@keyframes scrollRightToLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 
+.animate-scroll {
+  display: flex;
+  animation: scrollRightToLeft 30s linear infinite;
+  width: calc(
+    100% * 4
+  );
+}
+
+.relative {
+  overflow: hidden;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -23,9 +39,8 @@ body {
     /* 10px thick stripes */ transparent 10px,
     transparent 20px
   );
-  pointer-events: none; /* Ensure the stripes don't interfere with any clicks */
+  pointer-events: none; 
 }
-
 
 /* Media Queries */
 @media (max-width: 768px) {
@@ -34,39 +49,38 @@ body {
     line-height: 64px;
     font-weight: 500;
     margin-top: 5rem;
-    margin-bottom: .5rem;
-}
+    margin-bottom: 0.5rem;
+  }
 
-.text-desc {
-  font-weight: 300;
-  line-height: 32px;
-  font-size: 18px;
-  width: 100%;
-}
+  .text-desc {
+    font-weight: 300;
+    line-height: 32px;
+    font-size: 18px;
+    width: 100%;
+  }
 
   /* .navbar{
     padding: 2.5rem 8rem;
   } */
 
-  .img-container{
+  .img-container {
     margin-top: 2rem;
   }
 
-  .img-right{
+  .img-right {
     margin-left: -3rem;
   }
-
 }
 
 @media (min-width: 768px) {
-  .text-header{
+  .text-header {
     width: 67%;
     font-size: 50px;
     line-height: 64px;
     font-weight: 600;
     margin-top: 5rem;
-    margin-bottom: .5rem;
-}
+    margin-bottom: 0.5rem;
+  }
 
   .text-desc {
     font-weight: 500;
@@ -75,70 +89,76 @@ body {
     width: 56%;
   }
 
-  .navbar{
+  .navbar {
     padding: 2.5rem 8rem;
   }
 
-  .img-container{
+  .img-container {
     margin-top: 2rem;
   }
 
-  .img-right{
+  .img-right {
     margin-left: -7rem;
   }
-
 }
 
-.guarantee-section .flex-1 .rounded-xl{
+.guarantee-section .flex-1 .rounded-xl {
   text-align: center;
   height: 56px;
   width: 56px;
 }
 
-.faqs-section{
-  background: linear-gradient(135.48deg, #FEFFFF 9.48%, #A9DBFF 90.52%);
+.faqs-section {
+  background: linear-gradient(135.48deg, #feffff 9.48%, #a9dbff 90.52%);
 }
 
-
-.bg-whatsapp{
-background: linear-gradient(0deg, rgba(5, 1, 13, 0.6) 0%, rgba(5, 1, 13, 0.6) 100%), linear-gradient(101.54deg, #25D366 12.48%, #027C30 40.34%, #003012 87.81%);
-
+.bg-whatsapp {
+  background: linear-gradient(
+      0deg,
+      rgba(5, 1, 13, 0.6) 0%,
+      rgba(5, 1, 13, 0.6) 100%
+    ),
+    linear-gradient(101.54deg, #25d366 12.48%, #027c30 40.34%, #003012 87.81%);
 }
 
-.bg-instagram{
-background: linear-gradient(0deg, rgba(5, 1, 13, 0.6) 0%, rgba(5, 1, 13, 0.6) 100%), linear-gradient(101.54deg, #FF7061 12.48%, #FF5280 25.41%, #A033FF 50.63%);
-
+.bg-instagram {
+  background: linear-gradient(
+      0deg,
+      rgba(5, 1, 13, 0.6) 0%,
+      rgba(5, 1, 13, 0.6) 100%
+    ),
+    linear-gradient(101.54deg, #ff7061 12.48%, #ff5280 25.41%, #a033ff 50.63%);
 }
 
-.contact-form{
-  color: #6B7589;
+.contact-form {
+  color: #6b7589;
 }
 
-.contact-form label{
+.contact-form label {
   padding-bottom: 1rem;
 }
 
-.contact-form input{
-    text-align: left;
-    border: none;
-    outline: none;
-    color: #000;
+.contact-form input {
+  text-align: left;
+  border: none;
+  outline: none;
+  color: #000;
 }
 
-.contact-form .margin-none{
+.contact-form .margin-none {
   margin-left: 0 !important;
 }
 
-.font-22{
+.font-22 {
   font-size: 22px !important;
 }
 
-.font-18{
+.font-18 {
   font-size: 18px !important;
 }
 
 /* .bg-stripe::before{
-  background: url("/public/CURVES.svg");
+  background: url("/public/CURVES.svg");background: url("/public/CURVES.svg");
   z-index: 999;
   content: "hwehwdhhgdhdshjsd";
   width: 100%;
@@ -147,7 +167,27 @@ background: linear-gradient(0deg, rgba(5, 1, 13, 0.6) 0%, rgba(5, 1, 13, 0.6) 10
   top: 0;
 } */
 
-.bg-stripe{
+/* .bg-stripe {
   color: red;
   z-index: 999;
-}
+} */
+
+
+/* .bg-stripe::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg width='2167' height='2427' viewBox='0 0 2167 2427' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.22'%3E%3Cpath d='M249.128 413.341C200.771 554.236 145.229 877.19 309.92 1041.84C515.784 1247.66 1104.36 1162.02 1310.23 1347.12C1516.09 1532.21 1433.19 1833.34 1811.76 1869.26' stroke='%236DC8FF' stroke-width='6'/%3E%3Cpath d='M40.8338 930.579C50.8026 1063.92 119.263 1349.99 313.354 1427.56C555.968 1524.53 1011.11 1245.67 1246.39 1325.54C1481.67 1405.42 1519.85 1683.16 1844.79 1578.87' stroke='%236DC8FF' stroke-width='6'/%3E%3Cpath d='M223.622 746.832C162.592 897.123 82.8167 1244.93 251.954 1433.85C463.377 1670 1108.34 1612.23 1321 1825.85C1533.67 2039.46 1425.47 2361.9 1834.83 2423.69' stroke='%236DC8FF' stroke-width='6'/%3E%3Cpath d='M766.781 2.45079C716.474 126.337 650.715 413.04 790.136 568.766C964.413 763.424 1496.06 715.801 1671.36 891.889C1846.66 1067.98 1757.47 1333.76 2094.91 1384.69' stroke='%236DC8FF' stroke-width='6'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background: url("/curves.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 999;
+  scale: 1;
+
+  
+} */

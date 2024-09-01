@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaFacebook, FaArrowRight } from "react-icons/fa";
 const page = () => {
   return (
     <div className="flex flex-col w-full overflow-hidden">
@@ -19,7 +19,7 @@ const page = () => {
                   We're here to assist you.
                 </h4>
               </div>
-              <div className="text-sm font-semibold md:font-[400] md:text-[15px] md:leading-[23px] md:w-[55%] w-[75%]">
+              <div className="font-[400] md:text-[15px] md:leading-[23px] md:w-[55%] w-[75%]">
                 <h5>Questions, comments, or suggestions? Simply fill in the form and we’ll be in touch shortly.</h5>
               </div>
             </div>
@@ -83,8 +83,9 @@ const page = () => {
             </div>
           </div>
           <div className="py-3">
-            <button className="py-4 px-5 text-sm text-gray-200 bg-primary hover:bg-[#0c63af] hover:transition-all rounded-xl md:pt-[0.8rem] md:pb-[0.8rem] md:pl-[1.5rem] md:pr-[1.5rem] md:rounded-[8px]">
+            <button className="py-3 flex flex-row items-center gap-[.5rem] px-5 text-sm text-gray-200 bg-primary hover:bg-[#0c63af] hover:transition-all rounded-xl md:pt-[0.8rem] md:pb-[0.8rem] md:pl-[1.5rem] md:pr-[1.5rem] md:rounded-[8px]">
               Leave us a Message
+              <FaArrowRight className="text-white" />
             </button>
           </div>
         </form>
@@ -98,21 +99,21 @@ const page = () => {
         </div>
         <div className="flex-[3_3_0%] flex justify-between md:justify-around text-[#6B7589]">
           <div className="space-y-3 w-[150px]">
-            <h5 className="text-sm font-semiboldtext-[#6B7589]">Email Address</h5>
+            <h5 className="font-semibold text-[#6B7589]">Email Address</h5>
             <div className="w-6 h-[3px] bg-[#6B7589]"></div>
             <div className="w-4 bg bg-primary"></div>
-            <h4 className="text-xs font-semibold text-[#6B7589]">info@FloglogPharma.co</h4>
-            <h4 className="py-1 text-xs md:leading-[21px]]">
+            <h4 className="font-semibold text-[#6B7589]">info@FloglogPharma.co</h4>
+            <h4 className="py-1 md:leading-[32px]">
               <h4>Assistance hours:</h4>
               <h4>Monday - Friday 8 am to 6 pm WAT</h4>
             </h4>
           </div>
           <div className="space-y-3 w-[150px]">
-            <h5 className="text-sm font-semibold text-[#6B7589]">Number</h5>
+            <h5 className="font-semibold text-[#6B7589]">Number</h5>
             <div className="w-6 h-[3px] bg-[#6B7589]"></div>
             <div className="w-4 bg bg-primary"></div>
-            <h4 className="text-xs font-semibold text-[#6B7589]">+234 905564 5316</h4>
-            <h4 className="py-1 text-xs md:leading-[21px]">
+            <h4 className="font-semibold text-[#6B7589]">+234 905564 5316</h4>
+            <h4 className="py-1 md:leading-[32px]">
               <h4>Assistance hours:</h4>
               <h4>Monday - Friday 8 am to 6 pm WAT</h4>
             </h4>

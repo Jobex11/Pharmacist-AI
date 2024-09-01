@@ -1,15 +1,16 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { FaArrowLeft } from "react-icons/fa";
 const FullBlog = ({ blog, onBack }) => {
   return (
     <div className="flex flex-col w-full overflow-hidden">
         <div className="flex flex-col justify-center items-center bg-custom-bg-1 h-[40rem] w-full p-4 md:h-[40rem]">
         <button
           onClick={onBack}
-          className="px-4 py-2 mb-4 text-white rounded-lg bg-primary"
+          className="flex flex-row px-4 py-2 mb-4 text-white rounded-lg bg-primary items-center gap-[.5rem]"
         >
-          Back to Blog List
+          <FaArrowLeft className="text-white" /> Back to Blog List
         </button>
         <h1 className="mt-[2rem] md:w-[50%] text-gray-50  text-center text-[50px] font-[600] w-[100%]">
           {blog.title}
@@ -28,7 +29,7 @@ const FullBlog = ({ blog, onBack }) => {
             className="object-cover w-full h-full rounded-xl"
           />
         </div>
-        <div className="flex items-center justify-between py-1 text-base md:py-3 md:text-lg text-[#0C4E86]">
+        <div className="flex items-center justify-between py-2 text-base md:py-3 md:text-lg text-[#0C4E86]">
           <h6 className="text-[#0C4E86]">{blog.postDate}</h6>
           <h6 className="text-[#0C4E86]">{blog.postTime}</h6>
         </div>
