@@ -74,17 +74,17 @@ const Page = () => {
             </h2>
 
             <ul className="pl-5 space-y-4 list-disc list-inside">
-              <li className="font-[500] text-[19px]">
+              <li className="text-[19px]">
                 <span className="font-[600]">Normal Sign-Up Credentials:</span> 
                 &nbsp;Username, password, email address, phone number, etc.
               </li>
-              <li className="font-[500] text-[19px]">
+              <li className="text-[19px]">
                 <span className="font-[600]">User-Generated Data:</span> 
                 &nbsp;This includes chats with pharmacists, prescription requests,
                 medication orders, and any other user-generated content within
                 the app.
               </li>
-              <li className="font-[500] text-[19px]">
+              <li className="text-[19px]">
                 <span className="font-[600]">Health Data Records:</span> 
                 &nbsp;Any health data records stored within your account will also be
                 deleted.
@@ -95,13 +95,13 @@ const Page = () => {
               Data Retention and Deletion Policy:
             </h2>
             <ul className="pl-5 space-y-4 list-disc list-inside">
-              <li className="font-[500] text-[19px]">
+              <li className="text-[19px]">
                 FlologPharma App adheres to a strict data retention policy to ensure the privacy and security of user data.
               </li>
-              <li className="font-[500] text-[19px]">
+              <li className="text-[19px]">
                 User data will only be retained for as long as necessary to fulfill the purposes outlined in our Privacy Policy or as required by law.
               </li>
-              <li className="font-[500] text-[19px]">
+              <li className="text-[19px]">
                 Any data that is no longer needed for these purposes will be securely deleted from our systems.
               </li>
             </ul>

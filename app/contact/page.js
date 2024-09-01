@@ -24,12 +24,12 @@ const page = () => {
               </div>
             </div>
             <div className="flex flex-col justify-around text-xl text-[#6B7589]">
-              <Link href="/">
+              <Link href="https://wa.me/2349055645316">
                 <div>
                   <FaWhatsapp  />
                 </div>
               </Link>
-              <Link href="/">
+              <Link href="https://www.instagram.com/flologpharma.co" passHref>
                 <div>
                   <FaInstagram />
                 </div>
