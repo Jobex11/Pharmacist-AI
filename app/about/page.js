@@ -15,7 +15,7 @@ const page = () => {
     <div className="flex flex-col w-full overflow-hidden">
       <div className="flex items-center justify-center w-full p-4 bg-custom-bg-1 md:pb-[8rem] h-[25rem] pt-[4rem]">
         {/* <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4"> */}
-        <h1 className="text-[40px] w-[70%] leading-[54px] md:text-center md:text-[50px] font-[600] md:leading-[64px] md:w-[50%] md:mt-[10rem] text-gray-50 text-xl">
+        <h1 className="text-[40px] w-[70%] leading-[54px] md:text-center md:text-[50px] font-[600] md:leading-[64px] md:w-[50%] md:mt-[10rem] text-gray-50">
           Revolutionizing access to Pharmacists and Medicine
         </h1>
       </div>
@@ -26,7 +26,7 @@ const page = () => {
           </div> */}
       <div className="px-4 py-5 w-inherit md:py-10 text-primary">
         <div className="flex flex-col items-center p-6 bg-custom-bg-cyan rounded-xl md:p-12 md:px-[7rem] md:mt-[5rem]">
-          <h2 className="my-2 text-xl font-semibold md:my-4 md:text-[36px] md:font-[600] md:mb-[2.5rem] text-[26px]">
+          <h2 className="my-2 font-semibold md:my-4 md:text-[36px] md:font-[600] md:mb-[2.5rem] text-[26px]">
             Our Story
           </h2>
           <h3 className="text-[19px] leading-[32px]">
