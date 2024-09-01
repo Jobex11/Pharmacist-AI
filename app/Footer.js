@@ -17,13 +17,13 @@ const Footer = () => {
             </h6>
           </div>
           <div className="flex flex-col gap-[1rem] flex-1">
-            <div className="flex w-full mb-2 space-x-2 space-y-2 md:space-y-0">
+            <div className="flex w-full mb-2 space-x-2 space-y-2 md:space-y-0 mt-[.5rem]">
               <input
                 type="text"
                 placeholder="youremailhere@email.com"
                 className="md:w-[60%] p-2 bg-gray-300 rounded-lg"
               ></input>
-              <button className="p-2 px-7 text-sm text-gray-200 bg-[#3F4654] rounded-lg w-inherit">
+              <button className="p-2 px-7 text-sm mt-[0rem] subscribe-btn text-gray-200 bg-[#3F4654] rounded-lg w-inherit">
                 Subscribe
               </button>
             </div>

@@ -111,7 +111,7 @@ const page = () => {
           </div>
           <div className="items-center justify-center mt-6 md:mt-10 md:flex md:space-x-12">
             <div className="flex flex-col items-center my-10 text-center md:my-0 md:block md:w-[100%]">
-              <div className="border w-[350px] md:w-[100%] h-[300px] md:h-[100%]">
+              <div className="border w-[100%] md:w-[100%] h-[300px] md:h-[100%]">
                 {/* <div className="border w-[120px] md:w-[220px] h-[120px] md:h-[210px]"> */}
                 <Image
                   src="/images/Rectangle93.png"
@@ -130,7 +130,7 @@ const page = () => {
               </h5>
             </div>
             <div className="flex flex-col items-center my-10 text-center md:my-0 md:block md:w-[100%]">
-              <div className="border w-[350px] md:w-[100%] h-[300px] md:h-[100%]">
+              <div className="border w-[100%] md:w-[100%] h-[300px] md:h-[100%]">
                 <Image
                   src="/images/man.jpg"
                   width={100}
@@ -148,7 +148,7 @@ const page = () => {
               </h5>
             </div>
             <div className="flex flex-col items-center my-10 text-center md:my-0 md:block md:w-[100%]">
-              <div className="border w-[350px] md:w-[100%] h-[300px] md:h-[100%]">
+              <div className="border w-[100%] md:w-[100%] h-[300px] md:h-[100%]">
                 <Image
                   src="/images/lady.jpg"
                   width={100}

@@ -70,6 +70,10 @@ body {
   .img-right {
     margin-left: -3rem;
   }
+
+  .subscribe-btn{
+    margin-top: 0 !important;
+  }
 }
 
 @media (min-width: 768px) {
