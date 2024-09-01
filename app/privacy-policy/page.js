@@ -2,17 +2,18 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="w-full overflow-hidden flex flex-col">
-      <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4">
-        <h3 className="font-bold w-[60%] md:w-[30%] text-gray-50 text-xl md:text-2xl text-center">
-          Privacy Policy
-        </h3>
+    <div className="flex flex-col w-full overflow-hidden">
+      <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4 md:h-[30rem]">
+        <h1 className="md:w-[30%] text-gray-50 text-[50px] font-[600] text-center w-[100%]">
+         Privacy Policy
+        </h1>
       </div>
-      <div className="bg-custom-bg-cyan rounded-xl p-6 md:p-12 flex flex-col items-center">
-        <h4 className="text-primary text-sm md:text-base">
-          <h2 className="font-bold">Introduction</h2>
+      <div className="flex flex-col items-center p-6 bg-[text-gray-200] rounded-xl md:p-12 md:pt-[5rem] pt-[3rem]">
+        <h4 className="text-[#000000] text-[19px] md:leading-[40px] font-[300] w-[85%] flex flex-col gap-[.5rem]">
+        {/* <h4 className="text-sm text-[#000000] md:text-base"> */}
+          <h2 className="">Introduction</h2>
           <h2>
-            Welcome to Flolog. We are committed to protecting your privacy and
+            Welcome to FlologPharma. We are committed to protecting your privacy and
             ensuring that your personal information is handled in a safe and
             responsible manner. This Privacy Policy outlines how we collect,
             use, disclose, and protect your information when you use our
@@ -105,7 +106,7 @@ const page = () => {
               </li>
               <li>
                 Account Management: To create, maintain, and manage your account
-                with Flolog.
+                with FlologPharma.
               </li>
             </ul>
           </h2>
@@ -190,7 +191,7 @@ const page = () => {
           <h2>3.4 Protection of Rights</h2>
           <h2>
             We may disclose your information to protect the rights, property, or
-            safety of Flolog, our customers, or others. This includes sharing
+            safety of FlologPharma, our customers, or others. This includes sharing
             information with other companies and organizations for fraud
             protection and credit risk reduction.
           </h2>
@@ -230,7 +231,7 @@ const page = () => {
           </h2>
           <h2 className="mt-3">6. International Transfers</h2>
           <h2>
-            Flolog is based in Nigeria, but we may process and store your
+            FlologPharma is based in Nigeria, but we may process and store your
             information in countries outside of Nigeria. If you are accessing
             our Services from outside Nigeria, please be aware that your
             information may be transferred to, stored, and processed in a
@@ -248,7 +249,7 @@ const page = () => {
           <h2 className="mt-3">8. Third-Party Links</h2>
           <h2>
             Our Services may contain links to third-party websites and services
-            that are not owned or controlled by Flolog. We are not responsible
+            that are not owned or controlled by FlologPharma. We are not responsible
             for the privacy practices of these third parties. We encourage you
             to review the privacy policies of these third parties before
             providing any personal information.

@@ -1,15 +1,15 @@
-import { Poppins } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 
-const poppins = Poppins({
+export const poppins = Inter({
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "700", "900"],
 });
 
-export const metadata = {
+const metadata = {
   title: "FlologPharma",
   description: "FlologPharma; Bridging Healthcare Gaps for a Healthier Africa",
 };
