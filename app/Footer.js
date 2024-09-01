@@ -17,7 +17,7 @@ const Footer = () => {
             </h6>
           </div>
           <div className="flex flex-col gap-[1rem] flex-1">
-            <div className="w-full mb-2 space-x-2 space-y-2 md:space-y-0 md:flex">
+            <div className="flex w-full mb-2 space-x-2 space-y-2 md:space-y-0">
               <input
                 type="text"
                 placeholder="youremailhere@email.com"
