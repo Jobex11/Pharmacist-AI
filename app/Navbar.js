@@ -30,7 +30,7 @@ const Navbar = () => {
               width={150}
               height={150}
               unoptimized={true}
-              src="/images/logo.svg"
+              src="/Logo.svg"
               alt="Logo"
             />
           </div>
