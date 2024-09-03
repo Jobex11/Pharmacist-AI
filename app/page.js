@@ -46,6 +46,7 @@ export default function Home() {
               width={100}
               height={100}
               unoptimized={true}
+              //  src="/left-header-img.svg"
               src="/Group6321.png"
               className="h-[80%] w-full"
             />
@@ -79,7 +80,7 @@ export default function Home() {
           {/* <div className="md:flex md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px] my-6"> */}
           <div className="bg-custom-bg-2 md:w-[58%] md:h-[600px] flex justify-center items-end rounded-xl">
             <Image
-              src="/images/Image[img-feature-lg].png"
+              src="/consult-pharm.svg"
               height={100}
               width={100}
               quality={100}
@@ -94,9 +95,7 @@ export default function Home() {
               Consult a Pharmacist
             </h3>
             <h5 className="mt-1 text-lg md:font-inter md:text-16-5 md:font-400 md:leading-24 md:tracking-negative-0-18 md:text-left text-[#262729]">
-              Experience the flexibility of remote pharmaceutical consulations,
-              24/7. Get trusted consultation guidance and support from our team
-              of pharmacists, anytime, anywhere.
+            Experience the flexibility of remote pharmaceutical consultations, 24/7. Get trusted consultation guidance and support from our team of pharmacists, anytime, anywhere.
             </h5>
           </div>
         </div>
@@ -108,14 +107,12 @@ export default function Home() {
               Order your prescriptions and OTCs
             </h3>
             <h5 className="mt-1 text-lg md:font-inter md:text-16-5 md:font-400 md:leading-24 md:tracking-negative-0-18 md:text-left text-[#262729]">
-              Say goodbye to long queses! With our app you can effortlessly
-              request over-the-counter medications from the comfort of your own
-              home. Browse, select, and order with just a few taps.
+            Say goodbye to long queues! With our app, you can effortlessly request over-the-counter medications from the comfort of your own home. Browse, select, and order with just a few taps.
             </h5>
           </div>
           <div className="bg-custom-bg-3 md:w-[58%] md:h-[600px] flex justify-center items-end rounded-xl">
             <Image
-              src="/Layer_2.png"
+              src="/order-presc.svg"
               height={100}
               width={100}
               quality={100}
@@ -128,7 +125,7 @@ export default function Home() {
           <div className="order-1  bg-custom-bg-2 md:w-[58%] md:h-[600px] flex justify-end items-end rounded-xl">
             {/* <div className="order-1 md:order-2 bg-custom-bg-2 md:w-[50%] md:h-full flex justify-end items-end rounded-xl"> */}
             <Image
-              src="/Layer_1.png"
+              src="/manage-med.svg"
               height={100}
               width={100}
               quality={100}
@@ -141,10 +138,7 @@ export default function Home() {
               Manage your medications use with ease
             </h3>
             <h5 className="mt-1 text-lg md:font-inter md:text-16-5 md:font-400 md:leading-24 md:tracking-negative-0-18 md:text-left text-[#262729]">
-              Keeping track of your medications should'nt be complicated. Our
-              app streamlines the process, allowing you to effortlessly
-              organize, schedule, and monitor your medication intake.Take
-              control of your health journey with simplicity and peace of mind.
+            Keeping track of your medications shouldn&apos;t be complicated. Our app streamlines the process, allowing you to effortlessly organize, schedule, and monitor your medication intake. Take control of your health journey with simplicity and peace of mind.
             </h5>
           </div>
         </div>
@@ -163,9 +157,7 @@ export default function Home() {
             </div>
             <h3 className="text-[20px] font-semibold">Convenience</h3>
             <h4 className="text-[15px] leading-[25px]">
-              We offer easy online appointment scheduling, telemedcine options
-              for remote consultations, and a streamlined processes to reduce
-              wait times.
+            We offer easy online appointment scheduling, telemedicine options for remote consultations, and a streamlined processes to reduce wait times.
             </h4>
           </div>
           <div className="flex flex-col flex-1 gap-2">
@@ -174,8 +166,7 @@ export default function Home() {
             </div>
             <h3 className="text-[20px] font-semibold">Accessibility</h3>
             <h4 className="text-[15px] leading-[25px]">
-              We provide multi-channel support for consultations (chat and
-              video) and we also accomodate diverse schedules.
+            We provide multi-channel support for consultations (chat and video) and we also accommodate diverse schedules.
             </h4>
           </div>
           <div className="flex flex-col flex-1 gap-2">
@@ -184,8 +175,7 @@ export default function Home() {
             </div>
             <h3 className="text-[20px] font-semibold">Privacy</h3>
             <h4 className="text-[15px] leading-[25px]">
-              We schedule consultation appointment promptly and minimize wait
-              times. We deliver medications swiftly and promptly.
+            We use secure storage to protect health information. Our privacy policies are clear, and communication is transparent. Our practices adhere to HIPAA regulatory requirements.
             </h4>
           </div>
           <div className="flex flex-col flex-1 gap-2">
@@ -194,8 +184,7 @@ export default function Home() {
             </div>
             <h3 className="text-[20px] font-semibold">Speed</h3>
             <h4 className="text-[15px] leading-[25px]">
-              We schedule consultation appointments promptly and minimize wait
-              times. We deliver medications swiftly and promptly
+            We schedule consultation appointments promptly and minimize wait times. We deliver medications swiftly and promptly
             </h4>
           </div>
         </div>
@@ -205,8 +194,7 @@ export default function Home() {
             Maximize Your Medication Safety and Convenience with FloglogPharma.
           </h1>
           <h3 className="md:w-[600px]  text-base md:text-center my-3">
-            Safely manage your medications and simplify your healthcare routine
-            with Flologpharma's innovative solutions
+          Safely manage your medications and simplify your healthcare routine with Flolog's innovative solutions
           </h3>
           <div className="flex items-center justify-center md:text-center">
             <Link href="/contact">
@@ -380,7 +368,7 @@ export default function Home() {
               <div className="w-[25px] h-[25px]">
                 <Link href="https://chat.whatsapp.com/IeKaaoCxj2612rlCbOpXM5">
                   <Image
-                    src="/whatsap.svg"
+                    src="/whatsapp.svg"
                     height={100}
                     width={100}
                     unoptimized={true}

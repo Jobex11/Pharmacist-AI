@@ -90,8 +90,7 @@ const page = () => {
           <hr />
           <h2 className="py-2 text-base font-bold text-[20px]">Our Core Values</h2>
           <h3 className="md:w-[50%] text-[17px] leading-[30px]">
-            Built on Trust, Fueled by Innovation, and Pursuing Excellence in All
-            We Do
+            Built on Trust, Fueled by Innovation, and Fulfilled in Excellence always
           </h3>
         </div>
       </div>
@@ -111,7 +110,7 @@ const page = () => {
           </div>
           <div className="items-center justify-center mt-6 md:mt-10 md:flex md:space-x-12">
             <div className="flex flex-col items-center my-10 text-center md:my-0 md:block md:w-[100%]">
-              <div className="border w-[100%] md:w-[100%] h-[300px] md:h-[100%]">
+              <div className="border w-[100%] md:w-[100%] h-[300px] md:h-[100%] rounded-[12px]">
                 {/* <div className="border w-[120px] md:w-[220px] h-[120px] md:h-[210px]"> */}
                 <Image
                   src="/images/Rectangle93.png"
@@ -119,7 +118,7 @@ const page = () => {
                   height={100}
                   quality={100}
                   unoptimized={true}
-                  className="w-full h-full md:h-[400px]"
+                  className="w-full h-full md:h-[400px] rounded-[12px]"
                 />
               </div>
               <h3 className="font-semibold md:py-1 md:text-lg md:text-[30px] md:pt-[2rem] pt-[1rem] text-[20px]">
@@ -130,14 +129,14 @@ const page = () => {
               </h5>
             </div>
             <div className="flex flex-col items-center my-10 text-center md:my-0 md:block md:w-[100%]">
-              <div className="border w-[100%] md:w-[100%] h-[300px] md:h-[100%]">
+            <div className="border w-[100%] md:w-[100%] h-[300px] md:h-[100%] rounded-[12px]">
                 <Image
                   src="/images/man.jpg"
                   width={100}
                   height={100}
                   quality={100}
                   unoptimized={true}
-                  className="w-full h-full md:h-[400px]"
+                  className="w-full h-full md:h-[400px] rounded-[12px]"
                 />
               </div>
               <h3 className="font-semibold md:py-1 md:text-lg md:text-[30px] md:pt-[2rem] pt-[1rem] text-[20px]">
@@ -148,14 +147,14 @@ const page = () => {
               </h5>
             </div>
             <div className="flex flex-col items-center my-10 text-center md:my-0 md:block md:w-[100%]">
-              <div className="border w-[100%] md:w-[100%] h-[300px] md:h-[100%]">
+            <div className="border w-[100%] md:w-[100%] h-[300px] md:h-[100%] rounded-[12px]">
                 <Image
                   src="/images/lady.jpg"
                   width={100}
                   height={100}
                   quality={100}
                   unoptimized={true}
-                  className="w-full h-full  md:h-[400px]"
+                  className="w-full h-full  md:h-[400px] rounded-[12px]"
                 />
               </div>
               <h3 className="font-semibold md:py-1 md:text-lg md:text-[30px] md:pt-[2rem] pt-[1rem] text-[20px]">

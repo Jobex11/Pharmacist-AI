@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { PiLinkedinLogoDuotone, PiInstagramLogoDuotone   } from "react-icons/pi";
 const Footer = () => {
   return (
     <div className="text-primary">
@@ -45,10 +46,10 @@ const Footer = () => {
             <Link href="/">
               <div>
                 <Image
-                  className="h-10 w-36"
-                  src="/Image[tw-app-store-badge__image].png"
-                  height={100}
-                  width={100}
+                  className=""
+                  src="/app-store.svg"
+                  height={49}
+                  width={149}
                   unoptimized={true}
                 />
               </div>
@@ -57,10 +58,10 @@ const Footer = () => {
             <Link href="/">
               <div>
                 <Image
-                  className="h-10 w-36"
-                  src="/Image[tw-google-play-store-badge__image].png"
-                  height={100}
-                  width={100}
+                  className=""
+                  src="/playstore.svg"
+                  height={49}
+                  width={149}
                   unoptimized={true}
                 />
               </div>
@@ -127,17 +128,17 @@ const Footer = () => {
         <div className="flex-1 text-[14px] ">
           Copyright © 2024 Florix Healthcare Ltd. All rights reserved.
         </div>
-        <div className="text-[19px] flex items-center justify-center space-x-2 text-xl font-bold md:text-2xl mt-[.5rem]">
+        <div className="text-[18px] flex items-center justify-center space-x-2 gap-[10px] mt-[.5rem]">
           <Link href="https://wa.me/2349055645316" passHref>
-            <FaWhatsapp />
+            <FaWhatsapp size={18} />
           </Link>
-          <div className="font-normal">/</div>
+          <div className="">/</div>
+          <Link className="text-[#6B7589]" href="https://www.instagram.com/flologpharma.co" passHref>
+            <PiInstagramLogoDuotone  size={18}/>
+          </Link>
+          <div className="">/</div>
           <Link href="/">
-            <FaFacebook />
-          </Link>
-          <div className="font-normal">/</div>
-          <Link href="https://www.instagram.com/flologpharma.co" passHref>
-            <FaInstagram />
+            <PiLinkedinLogoDuotone  className="text-[#6B7589]" size={18}  />
           </Link>
         </div>
       </div>
