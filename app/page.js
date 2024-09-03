@@ -46,6 +46,7 @@ export default function Home() {
               width={100}
               height={100}
               unoptimized={true}
+              //  src="/left-header-img.svg"
               src="/Group6321.png"
               className="h-[80%] w-full"
             />
@@ -79,7 +80,7 @@ export default function Home() {
           {/* <div className="md:flex md:w-[50%] justify-center items-center md:space-x-5 md:h-[400px] my-6"> */}
           <div className="bg-custom-bg-2 md:w-[58%] md:h-[600px] flex justify-center items-end rounded-xl">
             <Image
-              src="/images/Image[img-feature-lg].png"
+              src="/consult-pharm.svg"
               height={100}
               width={100}
               quality={100}
@@ -111,7 +112,7 @@ export default function Home() {
           </div>
           <div className="bg-custom-bg-3 md:w-[58%] md:h-[600px] flex justify-center items-end rounded-xl">
             <Image
-              src="/Layer_2.png"
+              src="/order-presc.svg"
               height={100}
               width={100}
               quality={100}
@@ -124,7 +125,7 @@ export default function Home() {
           <div className="order-1  bg-custom-bg-2 md:w-[58%] md:h-[600px] flex justify-end items-end rounded-xl">
             {/* <div className="order-1 md:order-2 bg-custom-bg-2 md:w-[50%] md:h-full flex justify-end items-end rounded-xl"> */}
             <Image
-              src="/Layer_1.png"
+              src="/manage-med.svg"
               height={100}
               width={100}
               quality={100}
@@ -367,7 +368,7 @@ export default function Home() {
               <div className="w-[25px] h-[25px]">
                 <Link href="https://chat.whatsapp.com/IeKaaoCxj2612rlCbOpXM5">
                   <Image
-                    src="/whatsap.svg"
+                    src="/whatsapp.svg"
                     height={100}
                     width={100}
                     unoptimized={true}
