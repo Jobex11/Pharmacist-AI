@@ -90,8 +90,7 @@ const page = () => {
           <hr />
           <h2 className="py-2 text-base font-bold text-[20px]">Our Core Values</h2>
           <h3 className="md:w-[50%] text-[17px] leading-[30px]">
-            Built on Trust, Fueled by Innovation, and Pursuing Excellence in All
-            We Do
+            Built on Trust, Fueled by Innovation, and Fulfilled in Excellence always
           </h3>
         </div>
       </div>
