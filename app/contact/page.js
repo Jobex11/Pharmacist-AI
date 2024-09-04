@@ -102,7 +102,7 @@ const page = () => {
             <h5 className="font-semibold text-[#6B7589]">Email Address</h5>
             <div className="w-6 h-[3px] bg-[#6B7589]"></div>
             <div className="w-4 bg bg-primary"></div>
-            <h4 className="font-semibold text-[#6B7589]">info@FloglogPharma.co</h4>
+            <h4 className="font-semibold text-[#6B7589]">info@FlologPharma.co</h4>
             <h4 className="py-1 md:leading-[32px]">
               <h4>Assistance hours:</h4>
               <h4>Monday - Friday 8 am to 6 pm WAT</h4>

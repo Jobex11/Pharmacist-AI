@@ -45,13 +45,13 @@ const page = () => {
               fate or destiny, but we found a higher calling to scale our impact
               vision, utilizing healthcare as a tool for the greater good. This
               birthed Florix Healthcare Limited, the parent company of
-              Floglogpharma, in 2020.  The fulfillment, as they say, is not in
+              Flologpharma, in 2020.  The fulfillment, as they say, is not in
               the destination but in the journey. Indeed, we have had one
               awesome journey building this life, not just a company, called
-              Floglogpharma.”
+              Flologpharma.”
             </h3>
             <h3 className="my-3">
-              Floglogpharma provides you viable, efficient, and cost-effective
+              Flologpharma provides you viable, efficient, and cost-effective
               healthcare solutions including:
               <ul className="pl-5 list-disc text-primary">
                 <li>
@@ -103,7 +103,7 @@ const page = () => {
               The Founding Team
             </h2>
             <h3 className="md:w-[40%] text-center text-[17px] leading-[30px]">
-              To provide these services, Floglogpharma deploys the right
+              To provide these services, Flologpharma deploys the right
               technology, the right team, and at the right time always. The
               management team is led by three stellar Pharmacists
             </h3>
