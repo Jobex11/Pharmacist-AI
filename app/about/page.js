@@ -15,7 +15,7 @@ const page = () => {
     <div className="flex flex-col w-full overflow-hidden">
       <div className="flex items-center justify-center w-full p-4 bg-custom-bg-1 md:pb-[8rem] h-[25rem] pt-[4rem]">
         {/* <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4"> */}
-        <h1 className="text-[40px] w-[70%] leading-[54px] md:text-center md:text-[50px] font-[600] md:leading-[64px] md:w-[50%] md:mt-[10rem] text-gray-50">
+        <h1 className="text-[40px] w-[80%] leading-[54px] md:text-center md:text-[50px] font-[600] md:leading-[64px] md:w-[50%] md:mt-[10rem] text-gray-50">
           Revolutionizing access to Pharmacists and Medicine
         </h1>
       </div>
