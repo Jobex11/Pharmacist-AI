@@ -20,6 +20,7 @@ export default function Home() {
     "/Rectangle91.png",
     "/Rectangle91.png",
     "/Rectangle89.png",
+    
     "/Rectangle90.png",
   ];
 

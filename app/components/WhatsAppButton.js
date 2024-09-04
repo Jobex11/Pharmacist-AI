@@ -10,7 +10,7 @@ export default function WhatsAppButton() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <div className="flex justify-center gap-[19px]">
+          <div className="flex justify-center flex-col items-center gap-[.5rem] md:gap-[10px] md:flex-row">
             <FaWhatsapp className="p-2 text-5xl text-white rounded-full shadow-lg bg-[#0EA01D]" />
             <div className="flex flex-col items-start justify-center text-container">
               <div>Need help?</div>
