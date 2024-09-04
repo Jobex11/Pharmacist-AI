@@ -30,7 +30,7 @@ export default function Home() {
       <div className="flex flex-col items-center py-14 bg-custom-bg-1 bg-stripe md:py-20">
         {/* <h1 className="px-2 md:px-0 text-base md:text-3xl md:w-[600px] text-gray-200 mt-12 text-center"> */}
         <h1 className="px-2 mt-12 text-base text-center text-white text-header md:px-0">
-          Connect with Expert Pharmacists Anytime, Anywhere with FloglogPharma
+          Connect with Expert Pharmacists Anytime, Anywhere with FlologPharma
         </h1>
         {/* <h4 className="px-2 m-2 md:m-4 text-sm md:text-base md:w-[600px] text-gray-400  text-center"> */}
         <h4 className="px-2 m-2 text-center text-white text-desc md:m-4 md:pt-[1.2rem] md:pb-[2rem]">
@@ -191,7 +191,7 @@ export default function Home() {
         <hr className="border-[#0B3D7929] my-5 md:my-10 h-1 w-full"></hr>
         <div className="px-5 mx-2 md:px-0">
           <h1 className="md:w-[600px]  text-xl md:text-3xl font-semibold md:text-center">
-            Maximize Your Medication Safety and Convenience with FloglogPharma.
+            Maximize Your Medication Safety and Convenience with FlologPharma.
           </h1>
           <h3 className="md:w-[600px]  text-base md:text-center my-3">
           Safely manage your medications and simplify your healthcare routine with Flolog's innovative solutions
