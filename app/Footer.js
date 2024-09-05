@@ -111,12 +111,15 @@ const Footer = () => {
                   <Link href="/privacy-policy">
                     <li>Privacy Policy</li>
                   </Link>
+                  <Link href="/deletion-policy">
+                    <li>App Deletion Policy</li>
+                  </Link>
                   <Link href="/privacy-policy">
                     <li>Terms & Conditions</li>
                   </Link>
-                  <Link href="/privacy-policy">
+                  {/* <Link href="/privacy-policy">
                     <li>Acceptable Use</li>
-                  </Link>
+                  </Link> */}
                 </ul>
               </div>
             </div>
