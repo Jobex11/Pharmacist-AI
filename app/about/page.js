@@ -36,7 +36,7 @@ const page = () => {
               our days at the University of Benin, Faculty of Pharmacy, it was
               not our intention to engage in any business venture. School
               politics brought us together. As our relationship waxed stronger,
-              we birthed, in 2017, Florix Concepts – an organization committed
+              we birthed, in 2017, Flolog Concepts – an organization committed
               to training, mentoring, and empowering young people. We went on to
               organize several training sessions on that platform
             </h3>
@@ -44,7 +44,7 @@ const page = () => {
               But, Covid-19 changed the course of our journey. You may call it
               fate or destiny, but we found a higher calling to scale our impact
               vision, utilizing healthcare as a tool for the greater good. This
-              birthed Florix Healthcare Limited, the parent company of
+              birthed Flolog Healthcare Limited, the parent company of
               Flologpharma, in 2020.  The fulfillment, as they say, is not in
               the destination but in the journey. Indeed, we have had one
               awesome journey building this life, not just a company, called

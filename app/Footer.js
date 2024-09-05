@@ -126,7 +126,7 @@ const Footer = () => {
       <div className="text-[14px] text-[#6B7589] items-center justify-center w-full p-2 text-xs md:flex md:p-5 md:px-10 md:text-base">
         {/* this is for footer*/}
         <div className="flex-1 text-[14px] ">
-          Copyright © 2024 Florix Healthcare Ltd. All rights reserved.
+          Copyright © 2024 Flolog Pharmacy Ltd. All rights reserved.
         </div>
         <div className="text-[18px] flex items-center justify-center space-x-2 gap-[10px] mt-[.5rem]">
           <Link href="https://wa.me/2349055645316" passHref>
