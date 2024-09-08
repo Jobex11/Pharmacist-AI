@@ -1,6 +1,6 @@
 import Accordion from "./Accordion";
 
-const FAQ = () => {
+const FAQ = ({ count = 10 }) => {
   const faqs = [
     {
       question: "What are your services?",
@@ -71,9 +71,12 @@ const FAQ = () => {
     },
   ];
 
+  // Slice the FAQs based on the count
+  const displayedFaqs = faqs.slice(0, count);
+
   return (
-    <div className="">
-      {faqs.map((faq, index) => (
+    <div className="faq-container">
+      {displayedFaqs.map((faq, index) => (
         <Accordion key={index} question={faq.question} answer={faq.answer} />
       ))}
     </div>
@@ -81,44 +84,3 @@ const FAQ = () => {
 };
 
 export default FAQ;
-
-/*
-const FAQ = () => {
-  return (
-    <div className="text-sm">
-      <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-      
-      <div>What are your services?</div>
-
-      <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-      <div>
-        How can I make an appointment?
-        <div className="hidden"></div>
-      </div>
-
-      <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-      <div>Can I receive a prescription through an online consultation?</div>
-
-      <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-      <div>How much does an online consultation cost?</div>
-
-      <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-      <div>Is my personal and medical information secure?</div>
-
-      <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-      <div>Are your online consultations HIPAA compliant?</div>
-
-      <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-      <div>How much does an online consultation cost?</div>
-
-      <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
-      <div>Can I follow up with my consultant after the consultation?</div>
-
-      <hr className="border-[#0B3D7929] my-6 h-1 w-full"></hr>
-    </div>
-  );
-};
-
-export default FAQ;
-
-*/

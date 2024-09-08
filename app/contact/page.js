@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { FaWhatsapp, FaInstagram, FaFacebook, FaArrowRight } from "react-icons/fa";
-const page = () => {
+const Contact = () => {
   return (
     <div className="flex flex-col w-full overflow-hidden">
       <div className="flex justify-center items-center bg-custom-bg-1 h-[300px] w-full p-4 md:h-[30rem]">
@@ -125,4 +125,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Contact;

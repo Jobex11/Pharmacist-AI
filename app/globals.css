@@ -45,9 +45,9 @@ body {
 /* Media Queries */
 @media (max-width: 768px) {
   .text-header {
-    font-size: 38px;
+    /* font-size: 38px; */
     line-height: 64px;
-    font-weight: 500;
+    /* font-weight: 500; */
     margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
@@ -72,6 +72,10 @@ body {
   }
 
   .subscribe-btn{
+    margin-top: 0 !important;
+  }
+
+  .margin-none{
     margin-top: 0 !important;
   }
 }
@@ -160,6 +164,17 @@ body {
 .font-18 {
   font-size: 18px !important;
 }
+
+.subscribe-section input {
+  color: #000;
+}
+
+.subscribe-section input::placeholder {
+  color: #000;
+}
+
+
+
 
 /* .bg-stripe::before{
   background: url("/public/CURVES.svg");background: url("/public/CURVES.svg");
