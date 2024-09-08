@@ -5,9 +5,11 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { PiLinkedinLogoDuotone, PiInstagramLogoDuotone   } from "react-icons/pi";
 const Footer = () => {
   return (
+    
     <div className="text-primary">
+      <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
       <div className="flex-col items-center justify-center w-full md:flex">
-        <div className="text-[#3F4654] px-3 md:flex md:mx-auto justify-center  md:w-[70%]  md:gap-5 my-4 md:my-12 text-sm">
+        <div className="subscribe-section text-[#3F4654] px-3 md:flex md:mx-auto justify-center  md:w-[70%]  md:gap-5 my-4 md:my-12 text-sm">
           <div className="flex flex-col py-1 md:flex-1 md:py-0">
             <div className="text-[16px] font-semibold md:text-[18px] pb-[.5rem] leading-[30px]">
               Subscribe to our newsletter
@@ -40,10 +42,10 @@ const Footer = () => {
       </div>
 
       <div className="w-full p-2 mt-10 text-base md:p-10 md:text-xs">
-        <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr>
+        {/* <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr> */}
         <div className="w-full md:flex">
           <div className="flex flex-col items-center flex-1 p-2 space-y-4 md:p-0 md:items-start">
-            <Link href="/">
+            <Link href="/" >
               <div>
                 <Image
                   className=""
@@ -55,7 +57,7 @@ const Footer = () => {
               </div>
             </Link>
 
-            <Link href="/">
+            <Link href="/" className="">
               <div>
                 <Image
                   className=""
@@ -99,9 +101,9 @@ const Footer = () => {
                   <Link href="/">
                     <li>SECCAP Program</li>
                   </Link>
-                  <Link href="/">
+                  {/* <Link href="/">
                     <li>Emergency Medicines</li>
-                  </Link>
+                  </Link> */}
                 </ul>
               </div>
 
@@ -112,9 +114,9 @@ const Footer = () => {
                     <li>Privacy Policy</li>
                   </Link>
                   <Link href="/deletion-policy">
-                    <li>App Deletion Policy</li>
+                    <li>Account Deletion Policy</li>
                   </Link>
-                  <Link href="/privacy-policy">
+                  <Link href="/terms-and-conditions">
                     <li>Terms & Conditions</li>
                   </Link>
                   {/* <Link href="/privacy-policy">

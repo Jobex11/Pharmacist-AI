@@ -1,6 +1,6 @@
 import React from "react";
 
-const Page = () => {
+const DeletionPolicy = () => {
   return (
     <div className="flex flex-col w-full overflow-hidden">
       <div className="flex justify-center items-center bg-custom-bg-1 h-[30rem] w-full p-4 md:h-[30rem]">
@@ -112,4 +112,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default DeletionPolicy;
