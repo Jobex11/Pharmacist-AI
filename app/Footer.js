@@ -45,7 +45,7 @@ const Footer = () => {
         {/* <hr className="border-[#0B3D7929] my-1 md:my-6 h-1 w-full"></hr> */}
         <div className="w-full md:flex">
           <div className="flex flex-col items-center flex-1 p-2 space-y-4 md:p-0 md:items-start">
-            <Link href="/" >
+            <Link href="https://apps.apple.com/ng/app/flolog/id6443549274" >
               <div>
                 <Image
                   className=""
@@ -57,7 +57,7 @@ const Footer = () => {
               </div>
             </Link>
 
-            <Link href="/" className="">
+            <Link href="https://play.google.com/store/apps/details?id=co.flolog.flolog" className="">
               <div>
                 <Image
                   className=""
